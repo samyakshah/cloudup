@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="i_do_not_concur_with_the_line_manager_s_confirmation_explain_below_why_you_beli" label="I do not concur with the line manager's confirmation (explain below why you beli" language="en" table="x_vocr_ce_compliance_and_ethics_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>i_do_not_concur_with_the_line_manager_s_confirmation_explain_below_why_you_beli</element>
+            <help/>
+            <hint/>
+            <label>I do not concur with the line manager's confirmation (explain below why you beli</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <plural>I do not concur with the line manager's confirmation (explain below why you beli</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>SS</sys_created_by>
+            <sys_created_on>2019-12-07 19:24:42</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a9acbe46db2d8410f48fdbf9689619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>I do not concur with the line manager's confirmation (explain below why you beli</sys_name>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_documentation_x_vocr_ce_compliance_and_ethics_request_i_do_not_concur_with_the_line_manager_s_confirmation_explain_below_why_you_beli_en</sys_update_name>
+            <sys_updated_by>SS</sys_updated_by>
+            <sys_updated_on>2019-12-07 19:24:42</sys_updated_on>
+            <u_apllication_user_id/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

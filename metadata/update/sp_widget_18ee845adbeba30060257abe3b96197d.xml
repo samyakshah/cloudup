@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope,$window) {
+  var c = this;
+	
+	 $scope.$on('record.updated', function(name, data) {
+   spUtil.update($scope);
+   });
+	
+	c.uiAction = function(action) {
+		c.data.action = action;
+		c.data.action=$window.open(c.data.url);
+		c.server.update().then(function() {
+			c.data.action = undefined;
+		});
+	}
+	
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>u-vcc-compliance-ethics-renew</id>
+        <internal>false</internal>
+        <link/>
+        <name>VCC Compliance and Ethics - Renew</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	
+	// Get table & sys_id
+	var ceRecord= $sp.getRecord();
+	data.table='x_vocr_ce_compliance_and_ethics_request';
+	if (!data.table)
+		return;
+	data.show = 'No';
+	
+	
+	data.sys_id = ceRecord.getValue('sys_id');
+	
+	var gr=new GlideRecord('x_vocr_ce_compliance_and_ethics_request');
+	gr.addQuery('sys_id',data.sys_id);
+	gr.addQuery('active','true');
+	gr.query();
+	if(gr.next()){
+		
+		// Valid sys_id
+		if (!gr.get(data.sys_id))
+			return;
+		
+		//Get the current logged in user
+		var caller = "";
+		var currentUser = gs.getUserID();
+		
+		// Check the difference between current day and expiry day
+		var exp_date = gr.u_expiry_on;
+		var sdt = new GlideDateTime();
+		sdt.setValue(exp_date);// Get the expiry time
+		var y= new GlideDateTime();// Get the current time
+		var diff = GlideDateTime.subtract(y,sdt);
+		var dur = diff.getNumericValue();
+		var days= dur/1000/60/60/24;
+	
+		//Final check to display the button based on days<30 and greater than zero and requested for
+		if(days >0 && days<30)
+			{
+			if(data.table == 'x_vocr_ce_compliance_and_ethics_request')
+				{
+				caller = gr.getValue('u_requested_for_ssp');
+				if(caller == currentUser)
+					{
+					data.show = 'Yes';
+				}
+			}
+		}
+		
+		//To generate the URL Dynamically as a placeholder to redirect
+		if(data.table == 'x_vocr_ce_compliance_and_ethics_request'){
+			if(caller == currentUser){
+				var siParam = [];
+				var siVal = [];
+				
+				var grQueAns = new GlideRecord('question_answer');
+				grQueAns.addQuery('table_sys_id',data.sys_id);
+				grQueAns.addQuery('value','!=',"");
+				grQueAns.query();
+				while (grQueAns.next())
+					{
+					
+					siParam.push(grQueAns.question.name.toString());
+					siVal.push(grQueAns.value.toString());
+				}
+				var url = '/sp?id=sc_cat_item&sys_id='+ceRecord.u_record_producer+'&sysparm_parent='+ceRecord.sys_id;
+				for (var i = 0; i < siParam.length; i++)
+					{
+					url = url + '&sysparm_'+siParam[i]+'='+siVal[i];
+					url=url.replace(/(\r\n|\n|\r)/gm,"%0A");
+				}
+				url=url+"&sysparm_renew=true";
+				url = url.replace(" ", "%20");
+				data.url=url;	
+			}
+		}
+	}
+})();
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>KRAFI</sys_created_by>
+        <sys_created_on>2019-02-12 20:10:59</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>18ee845adbeba30060257abe3b96197d</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>VCC Compliance and Ethics - Renew</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sp_widget_18ee845adbeba30060257abe3b96197d</sys_update_name>
+        <sys_updated_by>DGOVINDH</sys_updated_by>
+        <sys_updated_on>2021-02-04 07:56:38</sys_updated_on>
+        <template><![CDATA[<div ng-if="data.show == 'Yes'">
+	<div class="panel panel-primary">
+ 		<div class="panel-heading">Actions</div>
+ 			<div class="panel-body">
+	 			<button type="button" class="btn btn-primary btn-block" ng-click="c.uiAction('renew')">Renew</button>
+              </div>
+	</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

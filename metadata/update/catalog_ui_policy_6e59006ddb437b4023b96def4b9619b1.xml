@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions>IO:ea250c29db437b4023b96def4b961984=true^ORIO:d4754069db437b4023b96def4b961991=true^ORIO:31f54869db437b4023b96def4b9619e2=true^ORIO:8e260c69db437b4023b96def4b9619b6=true^ORIO:f77680a9db437b4023b96def4b961999=true^ORIO:16a604a9db437b4023b96def4b9619c8=true^ORIO:a9f688a9db437b4023b96def4b961912=true^ORIO:915700e9db437b4023b96def4b961937=true^ORIO:3277c0e9db437b4023b96def4b961950=true^ORIO:cea784e9db437b4023b96def4b961913=true^EQ</catalog_conditions>
+        <catalog_item display_value="Compliance Due Diligence Report (Agents)">ba8f76d9db4b3b4023b96def4b961952</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>false</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>300</order>
+        <published_ref/>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	g_form.setValue('mitigating_actions_if_any','');
+	g_form.setValue('describe_the_red_flag','');
+	g_form.setValue('o_summary','');
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>on red flags check box selection</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-03 10:35:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6e59006ddb437b4023b96def4b9619b1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>on red flags check box selection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>catalog_ui_policy_6e59006ddb437b4023b96def4b9619b1</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-03 10:48:02</sys_updated_on>
+        <table/>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+</record_update>

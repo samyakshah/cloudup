@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" audit="true" db_object_id="e84ca64cdb1363c060257abe3b961978" extends="task" label="Compliance and Ethics Request" max_length="40" name="x_vocr_ce_compliance_and_ethics_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Corruption Bribery" max_length="40" name="corruption_bribery" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Criminal activity" max_length="40" name="criminal_activity" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date (CEO)" max_length="40" name="date_ceo" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date HR" max_length="40" name="date_hr" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date (LM)" max_length="40" name="date_lm" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date SVP" max_length="40" name="date_svp" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Export control" max_length="40" name="export_control" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the Agent and all its known associates been screened in Compliance Portal" max_length="40" name="has_the_agent_and_all_its_known" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has the Agent received, completed and returned the Due Diligence Questionnaire?" max_length="40" name="has_the_agent_received_completed" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have you reveiwed available open sorce information (Internet) on the Agent?" max_length="40" name="have_you_reveiwed_available_open" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have you reviewed the information submitted by the Agent to Volvo Cars" max_length="40" name="have_you_reviewed_the_information" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="10" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="20" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="I concurr with the recommendation from the CE Office" max_length="40" name="i_concurr_with_the_recommendation_from_the_ce_office" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="I concur with the line manager's confirmation" max_length="40" name="i_concur_with_the_line_manager_s_confirmation" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="I do not concur with the line manager's confirmation (explain below why you beli" max_length="40" name="i_do_not_concur_with_the_line_manager_s_confirmation_explain_below_why_you_beli" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Litigations" max_length="40" name="litigations" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Money laundring" max_length="40" name="money_laundring" type="boolean"/>
+        <element label="Name of the Trade Association" max_length="1000" name="name_of_the_trade_association" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other identified reputational risk factors" max_length="40" name="other_identified_reputational_risk_factors" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Political exposure" max_length="40" name="political_exposure" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Regulatory breach or investigation" max_length="40" name="regulatory_breach_or_investigation" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Terrorism" max_length="40" name="terrorism" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="The reported CoI has been handled and resolved by implementing adequate mitigati" max_length="40" name="the_reported_coi_has_been_handled_and_resolved_by_implementing_adequate_mitigati" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Trade sanctions" max_length="40" name="trade_sanctions" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Unit Manager" max_length="40" name="unit_manager" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Alwin Bakkenes" sequence="1" value="ABAKKENE"/>
+                <element inactive_on_update="false" label="Fredrik Andersson" sequence="1" value="FANDERSS"/>
+                <element inactive_on_update="false" label="Guillaume Cabrere" sequence="1" value="GCABRERE"/>
+                <element inactive_on_update="false" label="Hans Lindh" sequence="1" value="HLINDH"/>
+                <element inactive_on_update="false" label="Joachim de Verdier" sequence="1" value="JDEVERDI"/>
+                <element inactive_on_update="false" label="Karin Thorn" sequence="1" value="KTHORN2"/>
+                <element inactive_on_update="false" label="Kristian Abel" sequence="1" value="KABEL1"/>
+                <element inactive_on_update="false" label="Malin Vulcan" sequence="1" value="MTHOLIN"/>
+                <element inactive_on_update="false" label="Michael Wong" sequence="1" value="MWONG"/>
+                <element inactive_on_update="false" label="Ninna Aronsson" sequence="1" value="NARONSSO"/>
+                <element inactive_on_update="false" label="Patrik Bengtsson" sequence="1" value="PBENGT12"/>
+                <element inactive_on_update="false" label="Patrik Bengtsson" sequence="1" value="PBENGT12"/>
+                <element inactive_on_update="false" label="Sanela Ibrovic" sequence="1" value="SIBROVIC"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Approved On" max_length="40" name="u_approved_on" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stage" max_length="80" name="u_compliance_ethics_stage" read_only="true" type="workflow">
+            <choice>
+                <element inactive_on_update="false" label="Line Manager Approval" sequence="100" value="Line Manager Approval"/>
+                <element inactive_on_update="false" label="SVP Approval" sequence="200" value="SVP Approval"/>
+                <element inactive_on_update="false" label="Compliance and Ethics Verification" sequence="300" value="Compliance and Ethics Verification"/>
+                <element inactive_on_update="false" label="Verification Completed" sequence="400" value="Verification Completed"/>
+                <element inactive_on_update="false" label="General Counsel Approval" sequence="500" value="General Counsel Approval"/>
+                <element inactive_on_update="false" label="Request Rejected" sequence="1000" value="Request Rejected"/>
+                <element inactive_on_update="false" label="Request Approved" sequence="2000" value="Request Approved"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Expiry On" max_length="40" name="u_expiry_on" read_only="true" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="32" name="u_record_producer" read_only="true" reference="sc_cat_item_producer" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Renewal" max_length="40" name="u_renewal_check" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="SVP" max_length="40" name="u_svp" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Alexander Kerssemakers" sequence="1" value="LKERSSEM"/>
+                <element inactive_on_update="false" label="Anders Bell" sequence="1" value="ABELL32"/>
+                <element inactive_on_update="false" label="Anders Gustafsson" sequence="1" value="AGUSTA81"/>
+                <element inactive_on_update="false" label="Arek Nowinski" sequence="1" value="ANOWINSK"/>
+                <element inactive_on_update="false" label="Björn Annwall" sequence="1" value="BANNWALL"/>
+                <element inactive_on_update="false" label="Carl Henrik Green" sequence="1" value="HGREEN4"/>
+                <element inactive="true" inactive_on_update="true" label="Cedric Dubar" sequence="1" value="CDUBAR"/>
+                <element inactive_on_update="false" label="Geert Bruyneel" sequence="1" value="GBRUYNEE"/>
+                <element inactive_on_update="false" label="Hanna Fager" sequence="1" value="HFAGER"/>
+                <element inactive="true" inactive_on_update="true" label="Hans Oscarsson" sequence="1" value="HOSCARSS"/>
+                <element inactive_on_update="false" label="Helena Bergström Pilo" sequence="1" value="HBERGSTR"/>
+                <element inactive_on_update="false" label="Javier Varela" sequence="1" value="JVARELAS"/>
+                <element inactive_on_update="false" label="Jim Rowan" sequence="1" value="JROWAN"/>
+                <element inactive_on_update="false" label="Johan Ekdahl" sequence="1" value="JEKDAHL1"/>
+                <element inactive_on_update="false" label="Kerstin Enochsson" sequence="1" value="KENOCHSS"/>
+                <element inactive_on_update="false" label="Kristian Abel" sequence="1" value="KABEL1"/>
+                <element inactive_on_update="false" label="Maria Hemberg" sequence="1" value="MHEMBERG"/>
+                <element inactive_on_update="false" label="Mårten Levenstam" sequence="1" value="MLEVENST"/>
+                <element inactive="true" inactive_on_update="true" label="Martina Buchhauser" sequence="1" value="MBUCHHAU"/>
+                <element inactive="true" inactive_on_update="true" label="Mats Moberg" sequence="1" value="MMOBERG"/>
+                <element inactive_on_update="false" label="Ödgärd Andersson" sequence="1" value="OANDER16"/>
+                <element inactive_on_update="false" label="Per Ansgar" sequence="1" value="PANSGAR"/>
+                <element inactive_on_update="false" label="Xiaolin Yuan" sequence="1" value="XYUAN10"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_record_producer"/>
+        </index>
+    </element>
+</database>

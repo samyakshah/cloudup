@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Conflict of Interest Disclosure Form">9d18d8b5db8fbb4023b96def4b9619bd</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description><![CDATA[<div><strong>1. Introduction and instructions for completion.</strong> As set out in the&nbsp;<a title="Conflict of the Interest Policy" href="http://bms.volvocars.net/apps/bms/bms_vd.nsf/intranetdocs/1205131331BOF?opendocument">Conflict of the Interest Policy</a> &nbsp;, all Conflicts of Interest (CoI), actual or potential, as well as any appearance of CoI must be properly managed, meaning that they need to be identified, disclosed, resolved and recorded. Examples of a CoI can be found in the <a title="Conflict of the Interest Policy" href="http://bms.volvocars.net/apps/bms/bms_vd.nsf/intranetdocs/1205131331BOF?opendocument">Conflict of the Interest Policy</a></div>
+<div>&nbsp;</div>
+<div>&nbsp;This form should be used to:</div>
+<div>&nbsp;</div>
+<div>&nbsp;<strong>A)</strong> Inform the Compliance &amp; Ethics Office of any resolved CoI (or appearance of CoI), and how it was handled and resolved by the employee and his/her line manager.</div>
+<div>&nbsp;</div>
+<div><strong>B)</strong> Seek advice and/or approval in situations where the CoI (or appearance of CoI) could not be resolved by the employee and his/her manager.</div>
+<div>&nbsp;</div>
+<div>&nbsp;</div>]]></description>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro display_value="variable_html">0fd5e0b4dbe84b00a851fd431d96195f</macro>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>introduction_and_instructions</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>200</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Introduction and instructions&#13;
+</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_vocr_ce_compliance_and_ethics_request</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget display_value="u_variable_html">c2d868f4dbe84b00a851fd431d961946</sp_widget>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-04 07:12:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>ced32075db03fb4023b96def4b9619a2</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Introduction and instructions&#13;
+</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>item_option_new_ced32075db03fb4023b96def4b9619a2</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-10-07 14:56:46</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>17</type>
+        <u_cat_item/>
+        <u_dependent_item/>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=ced32075db03fb4023b96def4b9619a2"/>
+    <fx_price action="delete_multiple" query="id=ced32075db03fb4023b96def4b9619a2"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="SEK">SEK</currency>
+        <field>price_if_checked</field>
+        <id>ced32075db03fb4023b96def4b9619a2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="SEK">SEK</reference_currency>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-04 07:12:30</sys_created_on>
+        <sys_id>0d56a079db03fb4023b96def4b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-04 07:12:30</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="SEK">SEK</currency>
+        <field>rec_price_if_checked</field>
+        <id>ced32075db03fb4023b96def4b9619a2</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="SEK">SEK</reference_currency>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-04 07:12:30</sys_created_on>
+        <sys_id>c156a079db03fb4023b96def4b961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-04 07:12:30</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

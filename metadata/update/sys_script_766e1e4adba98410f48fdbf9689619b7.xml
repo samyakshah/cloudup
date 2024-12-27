@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>true</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_vocr_ce_compliance_and_ethics_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>VCC Visible CAE Request for Groups</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var query='';
+	if(gs.getUser().isMemberOf('Compliance and Ethics Group')){
+	query="u_record_producer=b9047e04db5363c060257abe3b961936^ORu_record_producer=38a87ce8db477740f48fdbf9689619d5^ORu_record_producer=88931b801b12ac1007e82fc3b24bcbe6";	
+	}
+	if(gs.getUser().isMemberOf('Compliance and Ethics Group 2')){
+	query=query+"^ORu_record_producer=8adc97c8db47f340f48fdbf968961932^ORu_record_producer=9d18d8b5db8fbb4023b96def4b9619bd";	
+	}
+	if(gs.getUser().isMemberOf('Compliance and Ethics Group 3')){
+	query=query+"^ORu_record_producer=a89ff8e8db877740f48fdbf96896192d^ORu_record_producer=ba8f76d9db4b3b4023b96def4b961952";	
+	}
+current.addEncodedQuery(query);
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-12-07 17:22:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>766e1e4adba98410f48fdbf9689619b7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>VCC Visible CAE Request for Groups</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_script_766e1e4adba98410f48fdbf9689619b7</sys_update_name>
+        <sys_updated_by>SVANGAVE</sys_updated_by>
+        <sys_updated_on>2021-02-09 15:37:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

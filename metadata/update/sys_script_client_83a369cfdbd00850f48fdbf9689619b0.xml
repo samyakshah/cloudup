@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>approval_column</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Line Manager field mandatory</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	g_form.getReference('sysapproval',legalHoldUser);
+             
+              function legalHoldUser(endUser) {
+                  alert(endUser.u_record_producer);
+              } 
+	//var source = g_form.getReference('sysapproval').u_record_producer;
+	
+	var wat = g_form.getValue('wf_activity');
+	//alert(source);
+	//alert(wat);
+	if(wat == '6c986824db508c10f48fdbf9689619a0'  && source == 'x_vocr_ce_compliance_and_ethics_request')
+	{
+	
+	
+  g_form.setMandatory('x_vocr_ce_the_reported_coi_has_been_handled_and_resolved_by_implementing_adequat',true);
+	g_form.setMandatory('x_vocr_ce_u_line_manager',true);
+	
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-10-09 12:15:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>83a369cfdbd00850f48fdbf9689619b0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Line Manager field mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_script_client_83a369cfdbd00850f48fdbf9689619b0</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-10-10 08:57:01</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <type>onLoad</type>
+        <u_cs_order/>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

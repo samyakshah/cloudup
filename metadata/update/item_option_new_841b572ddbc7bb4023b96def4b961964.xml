@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
+    <item_option_new action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <attributes/>
+        <cat_item display_value="Form for benchmarking or market intelligence projects">38a87ce8db477740f48fdbf9689619d5</cat_item>
+        <category/>
+        <choice_direction>down</choice_direction>
+        <choice_field/>
+        <choice_table/>
+        <conversational_label/>
+        <create_roles/>
+        <default_html_value/>
+        <default_value/>
+        <delete_roles/>
+        <delivery_plan/>
+        <description><![CDATA[<div>&nbsp;</div>
+<div><strong>&nbsp;WHAT ?&nbsp;</strong> &nbsp; &nbsp;Fill out this form in order to obtain prior approval if you want to start a new</div>
+<div>
+<div>&nbsp;</div>
+<div>- <strong>benchmarking activity</strong>, comparing any element of performance of Volvo Cars with that of competitors&rsquo; 1 , typically with the involvement of the competitors concerned; or</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - <strong>market intelligence activity</strong>, activity that is directed at obtaining competitors&rsquo; information in the market.</div>
+<div>&nbsp;</div>
+<div>HOW ?&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div>- immediately receive the <span style="color: #00ff00;"><strong>OK</strong></span> to proceed, possibly subject to complying with additional guidelines which will be clearly outlined; or</div>
+<div>&nbsp;</div>
+<div>- be contacted to obtain additional information pursuant to which you will either receive the <span style="color: #00ff00;"><strong>OK</strong></span> (again, possibly subject to complying with additional guidelines which will be clearly outlined) or a <span style="color: #ff0000;"><strong>REFUSAL</strong></span>&nbsp;</div>
+<div>&nbsp;</div>
+<div>WHY ?&nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div>&nbsp;</div>
+<div>Below is a summary that explains what are the main competition law related concerns involved in benchmarking and market intelligence activities and what triggers or removes these concerns. Hopefully, that will help you to fill out the form. If not, do not worry; please fill out the form to the best of your ability and submit it. If need be, we will reach out to you.</div>
+<div>&nbsp;</div>
+<div>-&nbsp; &nbsp; Benchmarking and market intelligence activities are only limited by competition law if it involves the <strong>exchange</strong> of <strong>Sensitive Information</strong>. The concern is that if competitors exchange Sensitive Information, they may have less incentives to compete because they know what their competitors are doing/will do.&nbsp;&nbsp;</div>
+<div>&nbsp;</div>
+<div>-&nbsp; Generally, information related to <strong>prices</strong> (including actual prices, discounts, increases, reductions or rebates) and <strong>quantities</strong> is the most strategic and thus <strong>Sensitive Information</strong>, followed by information about <strong>costs</strong> and <strong>demand</strong>. Other elements that are likely to qualify as Sensitive Information are customer data, sales, R&amp;D pipeline, capacities, qualities, marketing plans, risks and investments.</div>
+<div>&nbsp;</div>
+<div>-&nbsp; &nbsp;Are competitors to Volvo Cars <strong>participating</strong> in or otherwise extending their <strong>cooperation</strong> to the benchmarking or market intelligence activity? If not, there is no <strong>exchange</strong> and it will be ok to proceed.</div>
+<div>&nbsp;</div>
+<div>-&nbsp; Information will not qualify as Sensitive Information if it is <strong>historic</strong>. You may consider information that is older than 12 months as historic. <strong>Truly publically known</strong> information is also not Sensitive Information. If the exchange does not involve Sensitive Information, it will be ok to proceed.</div>
+<div>&nbsp;</div>
+<div>-&nbsp; &nbsp;Any type of Sensitive Information that is <strong>future</strong> (forward-looking), may under no circumstance be exchanged.</div>
+<div>&nbsp;</div>
+<div>-&nbsp; &nbsp;<strong>Current and recent</strong> Sensitive Information may only be exchanged through a &ldquo;blackbox&rdquo; as defined below. Importantly, it should be noted that the &ldquo;black-box&rdquo; set-up is not sufficient to remove competition law concerns related to the exchange of <strong>price-related information</strong>.&nbsp;</div>
+<div>&nbsp;</div>
+<div>-&nbsp; &nbsp; Sensitive Information (other than price-related information) that is not future may be exchanged between competitors if it is set-up via a <strong>black-box</strong>, meaning (i) through an independent third party; (ii) that collects all information from competitors in a 1-on-1 communication; and (iii) discloses to the competitors anonymized and aggregated data in such a manner that competitors are not in a position to obtain insight into the strategic conduct of their competitors.</div>
+<div>&nbsp;</div>
+<div>&nbsp;- If you want to <strong>benchmark price-related information</strong> or you want to exchange Sensitive Information in the context of a benchmarking exercise <strong>outside of the &ldquo;blackbox&rdquo;</strong> <strong>set-up</strong>, Volvo Cars will need to carefully assess if this may nevertheless be OK. This will only be the case if</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp; (i) the answer to &ldquo;why are you doing is?&rdquo;, is &ldquo;to <span style="text-decoration: underline;"><strong>create efficiencies</strong></span> (eg, cheaper, better, more diversified, improved, new products) that benefit (to some extent) end-consumers&rdquo;; and if.</div>
+<div>&nbsp;</div>
+<div>&nbsp; &nbsp; &nbsp; &nbsp;(ii) the answer to &ldquo;is this <span style="text-decoration: underline;"><strong>really necessary</strong></span> (can you not achieve this in a manner that does not allow you to identify individual Sensitive Information of your competitors?)&rdquo; is &ldquo;no, this cannot be done in any other way&rdquo;.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div>&nbsp;</div>
+<div>These are <strong>extremely difficult questions</strong>, we know, but <strong>do not worry</strong> ! You do not yet need to respond to these questions. You will get help when reaching out for approval via the below form:</div>
+&nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div>&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;" contenteditable="true">
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">- benchmarking activity, comparing any element of performance of Volvo Cars with that of competitors&rsquo; 1 , typically with the involvement of the competitors concerned; or</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - market intelligence activity, activity that is directed at obtaining competitors&rsquo; information in the market.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">HOW ?&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">- immediately receive the OK to proceed, possibly subject to complying with additional guidelines which will be clearly outlined; or</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">- be contacted to obtain additional information pursuant to which you will either receive the OK (again, possibly subject to complying with additional guidelines which will be clearly outlined) or a REFUSAL&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">WHY ?&nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">Below is a summary that explains what are the main competition law related concerns involved in benchmarking and market intelligence activities and what triggers or removes these concerns. Hopefully, that will help you to fill out the form. If not, do not worry; please fill out the form to the best of your ability and submit it. If need be, we will reach out to you.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp; Benchmarking and market intelligence activities are only limited by competition law if it involves the exchange of Sensitive Information. The concern is that if competitors exchange Sensitive Information, they may have less incentives to compete because they know what their competitors are doing/will do.&nbsp;&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; Generally, information related to prices (including actual prices, discounts, increases, reductions or rebates) and quantities is the most strategic and thus Sensitive Information, followed by information about costs and demand. Other elements that are likely to qualify as Sensitive Information are customer data, sales, R&amp;D pipeline, capacities, qualities, marketing plans, risks and investments.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp;Are competitors to Volvo Cars participating in or otherwise extending their cooperation to the benchmarking or market intelligence activity? If not, there is no exchange and it will be ok to proceed.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; Information will not qualify as Sensitive Information if it is historic. You may consider information that is older than 12 months as historic. Truly publically known information is also not Sensitive Information. If the exchange does not involve Sensitive Information, it will be ok to proceed.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp;Any type of Sensitive Information that is future (forward-looking), may under no circumstance be exchanged.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp;Current and recent Sensitive Information may only be exchanged through a &ldquo;blackbox&rdquo; as defined below. Importantly, it should be noted that the &ldquo;black-box&rdquo; set-up is not sufficient to remove competition law concerns related to the exchange of pricerelated information.&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp; Sensitive Information (other than price-related information) that is not future may be exchanged between competitors if it is set-up via a black-box, meaning (i) through an independent third party; (ii) that collects all information from competitors in a 1-on-1 communication; and (iii) discloses to the competitors anonymized and aggregated data in such a manner that competitors are not in a position to obtain insight into the strategic conduct of their competitors.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;- If you want to benchmark price-related information or you want to exchange Sensitive Information in the context of a benchmarking exercise outside of the &ldquo;blackbox&rdquo; set-up, Volvo Cars will need to carefully assess if this may nevertheless be OK. This will only be the case if</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp; &nbsp; &nbsp; &nbsp; (i) the answer to &ldquo;why are you doing is?&rdquo;, is &ldquo;to create efficiencies (eg, cheaper, better, more diversified, improved, new products) that benefit (to some extent) end-consumers&rdquo;; and if.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp; &nbsp; &nbsp; &nbsp;(ii) the answer to &ldquo;is this really necessary (can you not achieve this in a manner that does not allow you to identify individual Sensitive Information of your competitors?)&rdquo; is &ldquo;no, this cannot be done in any other way&rdquo;.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">These are extremely difficult questions, we know, but do not worry ! You do not yet need to respond to these questions. You will get help when reaching out for approval via the below form:</div>
+</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;" contenteditable="true">
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">WHAT ?&nbsp; &nbsp; &nbsp;Fill out this form in order to obtain prior approval if you want to start a new</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">- benchmarking activity, comparing any element of performance of Volvo Cars with that of competitors&rsquo; 1 , typically with the involvement of the competitors concerned; or</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - market intelligence activity, activity that is directed at obtaining competitors&rsquo; information in the market.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">HOW ?&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">- immediately receive the OK to proceed, possibly subject to complying with additional guidelines which will be clearly outlined; or</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">- be contacted to obtain additional information pursuant to which you will either receive the OK (again, possibly subject to complying with additional guidelines which will be clearly outlined) or a REFUSAL&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">WHY ?&nbsp; &nbsp; &nbsp;&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">Below is a summary that explains what are the main competition law related concerns involved in benchmarking and market intelligence activities and what triggers or removes these concerns. Hopefully, that will help you to fill out the form. If not, do not worry; please fill out the form to the best of your ability and submit it. If need be, we will reach out to you.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp; Benchmarking and market intelligence activities are only limited by competition law if it involves the exchange of Sensitive Information. The concern is that if competitors exchange Sensitive Information, they may have less incentives to compete because they know what their competitors are doing/will do.&nbsp;&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; Generally, information related to prices (including actual prices, discounts, increases, reductions or rebates) and quantities is the most strategic and thus Sensitive Information, followed by information about costs and demand. Other elements that are likely to qualify as Sensitive Information are customer data, sales, R&amp;D pipeline, capacities, qualities, marketing plans, risks and investments.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp;Are competitors to Volvo Cars participating in or otherwise extending their cooperation to the benchmarking or market intelligence activity? If not, there is no exchange and it will be ok to proceed.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; Information will not qualify as Sensitive Information if it is historic. You may consider information that is older than 12 months as historic. Truly publically known information is also not Sensitive Information. If the exchange does not involve Sensitive Information, it will be ok to proceed.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp;Any type of Sensitive Information that is future (forward-looking), may under no circumstance be exchanged.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp;Current and recent Sensitive Information may only be exchanged through a &ldquo;blackbox&rdquo; as defined below. Importantly, it should be noted that the &ldquo;black-box&rdquo; set-up is not sufficient to remove competition law concerns related to the exchange of pricerelated information.&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">-&nbsp; &nbsp; Sensitive Information (other than price-related information) that is not future may be exchanged between competitors if it is set-up via a black-box, meaning (i) through an independent third party; (ii) that collects all information from competitors in a 1-on-1 communication; and (iii) discloses to the competitors anonymized and aggregated data in such a manner that competitors are not in a position to obtain insight into the strategic conduct of their competitors.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;- If you want to benchmark price-related information or you want to exchange Sensitive Information in the context of a benchmarking exercise outside of the &ldquo;blackbox&rdquo; set-up, Volvo Cars will need to carefully assess if this may nevertheless be OK. This will only be the case if</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp; &nbsp; &nbsp; &nbsp; (i) the answer to &ldquo;why are you doing is?&rdquo;, is &ldquo;to create efficiencies (eg, cheaper, better, more diversified, improved, new products) that benefit (to some extent) end-consumers&rdquo;; and if.</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp; &nbsp; &nbsp; &nbsp;(ii) the answer to &ldquo;is this really necessary (can you not achieve this in a manner that does not allow you to identify individual Sensitive Information of your competitors?)&rdquo; is &ldquo;no, this cannot be done in any other way&rdquo;.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">&nbsp;</div>
+<div class="ephox-sloth-bin ephox-sloth-bin_58257291111569492772162" style="position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; overflow: hidden; opacity: 0;">These are extremely difficult questions, we know, but do not worry ! You do not yet need to respond to these questions. You will get help when reaching out for approval via the below form:</div>
+</div>]]></description>
+        <display_title>false</display_title>
+        <do_not_select_first>false</do_not_select_first>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
+        <enable_also_request_for>false</enable_also_request_for>
+        <example_text/>
+        <field/>
+        <global>false</global>
+        <help_tag>More information</help_tag>
+        <help_text/>
+        <hidden>false</hidden>
+        <include_none>false</include_none>
+        <instructions/>
+        <layout>normal</layout>
+        <list_table/>
+        <lookup_label/>
+        <lookup_price/>
+        <lookup_table/>
+        <lookup_unique>false</lookup_unique>
+        <lookup_value/>
+        <macro display_value="variable_html">0fd5e0b4dbe84b00a851fd431d96195f</macro>
+        <macroponent/>
+        <mandatory>false</mandatory>
+        <map_to_field>false</map_to_field>
+        <mask_use_confirmation>false</mask_use_confirmation>
+        <mask_use_encryption>false</mask_use_encryption>
+        <name>appendix_1_form_for_benchmarking_or_market_intelligence_projects</name>
+        <not_available_conversation>false</not_available_conversation>
+        <order>100</order>
+        <post_insert_script/>
+        <price_if_checked>0</price_if_checked>
+        <pricing_implications>false</pricing_implications>
+        <published_ref/>
+        <question_text>Appendix 1 – Form for benchmarking or market intelligence projects</question_text>
+        <read_only>false</read_only>
+        <read_roles/>
+        <read_script/>
+        <rec_lookup_price/>
+        <rec_price_if_checked>0</rec_price_if_checked>
+        <record/>
+        <record_producer_table>x_vocr_ce_compliance_and_ethics_request</record_producer_table>
+        <reference/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <rich_text/>
+        <roles_to_use_also_request_for/>
+        <save_script/>
+        <scale_max>5</scale_max>
+        <scale_min>0</scale_min>
+        <show_help>false</show_help>
+        <show_help_on_load>false</show_help_on_load>
+        <sp_widget display_value="u_variable_html">c2d868f4dbe84b00a851fd431d961946</sp_widget>
+        <summary_macro/>
+        <sys_class_name>item_option_new</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-04 01:45:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>841b572ddbc7bb4023b96def4b961964</sys_id>
+        <sys_mod_count>79</sys_mod_count>
+        <sys_name>Appendix 1 – Form for benchmarking or market intelligence projects</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>item_option_new_841b572ddbc7bb4023b96def4b961964</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-09-26 10:37:07</sys_updated_on>
+        <table/>
+        <tooltip/>
+        <topic_block/>
+        <type>17</type>
+        <u_cat_item/>
+        <u_dependent_item/>
+        <ui_page/>
+        <unique>false</unique>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <validate_regex/>
+        <variable_name/>
+        <variable_set/>
+        <variable_width/>
+        <visibility>1</visibility>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <visible_summary>true</visible_summary>
+        <write_roles/>
+    </item_option_new>
+    <sys_translated_text action="delete_multiple" query="documentkey=841b572ddbc7bb4023b96def4b961964"/>
+    <fx_price action="delete_multiple" query="id=841b572ddbc7bb4023b96def4b961964"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="SEK">SEK</currency>
+        <field>price_if_checked</field>
+        <id>841b572ddbc7bb4023b96def4b961964</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="SEK">SEK</reference_currency>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-04 01:45:37</sys_created_on>
+        <sys_id>f88b5b69dbc7bb4023b96def4b9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-04 01:45:37</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="SEK">SEK</currency>
+        <field>rec_price_if_checked</field>
+        <id>841b572ddbc7bb4023b96def4b961964</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="SEK">SEK</reference_currency>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-04 01:45:37</sys_created_on>
+        <sys_id>3c8b5b69dbc7bb4023b96def4b9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-04 01:45:37</sys_updated_on>
+        <table>item_option_new</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

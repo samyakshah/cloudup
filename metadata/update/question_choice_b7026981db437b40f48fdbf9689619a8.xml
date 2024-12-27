@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Currency of the gift/favour/hospitality">003e5d89db037b40f48fdbf96896196e</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-02 03:39:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b7026981db437b40f48fdbf9689619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RUB</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>question_choice_b7026981db437b40f48fdbf9689619a8</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-02 03:39:43</sys_updated_on>
+        <text>RUB</text>
+        <u_add_group>false</u_add_group>
+        <u_approver/>
+        <u_assignment_group/>
+        <u_dependent_choice/>
+        <u_special_text/>
+        <value>RUB</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b7026981db437b40f48fdbf9689619a8"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="SEK">SEK</currency>
+        <field>misc</field>
+        <id>b7026981db437b40f48fdbf9689619a8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="SEK">SEK</reference_currency>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-02 03:39:43</sys_created_on>
+        <sys_id>a072a9c1db437b40f48fdbf96896196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-02 03:39:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="SEK">SEK</currency>
+        <field>rec_misc</field>
+        <id>b7026981db437b40f48fdbf9689619a8</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="SEK">SEK</reference_currency>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-02 03:39:43</sys_created_on>
+        <sys_id>6872a9c1db437b40f48fdbf96896196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-02 03:39:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

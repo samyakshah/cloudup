@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["9da10611db6c0090f48fdbf968961922"],"stages":{"51a10611db6c0090f48fdbf968961922":{"duration":"","order":300,"stageId":"51a10611db6c0090f48fdbf968961922","name":"Compliance and Ethics Verification","value":"Compliance and Ethics Verification"},"d5a10611db6c0090f48fdbf968961922":{"duration":"","order":2000,"stageId":"d5a10611db6c0090f48fdbf968961922","name":"Request Approved","value":"Request Approved"}},"activities":{"19a14611db6c0090f48fdbf96896199c":"d5a10611db6c0090f48fdbf968961922","15a14611db6c0090f48fdbf96896199b":"51a10611db6c0090f48fdbf968961922"},"subflows":[]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition table="x_vocr_ce_compliance_and_ethics_request">u_record_producer=8adc97c8db47f340f48fdbf968961932^EQ<item display_table="sc_cat_item_producer" display_value="EMT Report of Financial Engagement Form" endquery="false" field="u_record_producer" goto="false" newquery="false" operator="=" or="false" value="8adc97c8db47f340f48fdbf968961932"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>55a14611db6c0090f48fdbf96896199d,15a14611db6c0090f48fdbf96896199b,91a10611db6c0090f48fdbf968961924,19a14611db6c0090f48fdbf96896199c,9da10611db6c0090f48fdbf968961922</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>55a14611db6c0090f48fdbf96896199d,15a14611db6c0090f48fdbf96896199b,91a10611db6c0090f48fdbf968961924,19a14611db6c0090f48fdbf96896199c,9da10611db6c0090f48fdbf968961922</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>CandE_EMT Report of Financial Engagement Form</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>u_compliance_ethics_stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">55a14611db6c0090f48fdbf96896199d</start>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>5da10611db6c0090f48fdbf96896191f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>MFREDIN</sys_updated_by>
+        <sys_updated_on>2022-03-14 12:24:42</sys_updated_on>
+        <table>x_vocr_ce_compliance_and_ethics_request</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="CandE_EMT Report of Financial Engagement Form">cb9b5fd0db584c10f48fdbf968961902</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>CandE_EMT Report of Financial Engagement Form</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-10-01 07:52:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>cb9b5fd0db584c10f48fdbf968961902</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CandE_EMT Report of Financial Engagement Form</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>wf_workflow_cb9b5fd0db584c10f48fdbf968961902</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-10-01 07:52:08</sys_updated_on>
+        <table>x_vocr_ce_compliance_and_ethics_request</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Compliance and Ethics Verification</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>300</order>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>51a10611db6c0090f48fdbf968961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>Compliance and Ethics Verification</value>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>General Counsel Approval</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>500</order>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>d1a10611db6c0090f48fdbf968961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>General Counsel Approval</value>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Line Manager Approval</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>dda10611db6c0090f48fdbf968961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>Line Manager Approval</value>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>2000</order>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>d5a10611db6c0090f48fdbf968961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>Request Approved</value>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Rejected</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>99a10611db6c0090f48fdbf968961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>Request Rejected</value>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>SVP Approval</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>200</order>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>55a10611db6c0090f48fdbf968961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>SVP Approval</value>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Verification Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>400</order>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>5da10611db6c0090f48fdbf968961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>Verification Completed</value>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Assign to Compliance and Ethics Group</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Compliance and Ethics Verification">51a10611db6c0090f48fdbf968961922</stage>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>15a14611db6c0090f48fdbf96896199b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:09:09</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+        <x>443</x>
+        <y>3</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=15a14611db6c0090f48fdbf96896199b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>15a14611db6c0090f48fdbf96896199b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>99a14611db6c0090f48fdbf96896199b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:09:09</sys_updated_on>
+        <value>assignment_group=c1258d11dba4c090a1e79c28db96199b^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>15a14611db6c0090f48fdbf96896199b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>99a14611db6c0090f48fdbf96896199b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:09:09</sys_updated_on>
+        <value>assignment_group=c1258d11dba4c090a1e79c28db96199b^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Assign to Compliance and Ethics Group">15a14611db6c0090f48fdbf96896199b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>51a14611db6c0090f48fdbf96896199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>55a14611db6c0090f48fdbf96896199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=55a14611db6c0090f48fdbf96896199d"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">55a14611db6c0090f48fdbf96896199d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>dda14611db6c0090f48fdbf96896199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>9da10611db6c0090f48fdbf968961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+        <x>889</x>
+        <y>526</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=9da10611db6c0090f48fdbf968961922"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Status as Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Request Approved">d5a10611db6c0090f48fdbf968961922</stage>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>19a14611db6c0090f48fdbf96896199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+        <x>1063</x>
+        <y>368</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=19a14611db6c0090f48fdbf96896199c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>19a14611db6c0090f48fdbf96896199c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>99a14611db6c0090f48fdbf96896199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>state=13^u_approved_on=javascript:gs.nowDateTime();^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>19a14611db6c0090f48fdbf96896199c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>99a14611db6c0090f48fdbf96896199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>state=13^u_approved_on=javascript:gs.nowDateTime();^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Status as Approved">19a14611db6c0090f48fdbf96896199c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>dda14611db6c0090f48fdbf96896199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Wait for Stage to be set as Verification Completed</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>91a10611db6c0090f48fdbf968961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+        <x>758</x>
+        <y>6</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=91a10611db6c0090f48fdbf968961924"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>91a10611db6c0090f48fdbf968961924</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>15a14611db6c0090f48fdbf96896199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>u_compliance_ethics_stage=Verification Completed^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>91a10611db6c0090f48fdbf968961924</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>19a10611db6c0090f48fdbf968961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>91a10611db6c0090f48fdbf968961924</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>15a14611db6c0090f48fdbf96896199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>u_compliance_ethics_stage=Verification Completed^EQ</value>
+        <variable display_value="Condition">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>91a10611db6c0090f48fdbf968961924</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>19a10611db6c0090f48fdbf968961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="Condition script">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Wait for Stage to be set as Verification Completed">91a10611db6c0090f48fdbf968961924</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>d9a14611db6c0090f48fdbf96896199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">d9a14611db6c0090f48fdbf96896199a</condition>
+        <from display_value="Wait for Stage to be set as Verification Completed">91a10611db6c0090f48fdbf968961924</from>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>51a14611db6c0090f48fdbf96896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <to display_value="Set Status as Approved">19a14611db6c0090f48fdbf96896199c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">51a14611db6c0090f48fdbf96896199c</condition>
+        <from display_value="Assign to Compliance and Ethics Group">15a14611db6c0090f48fdbf96896199b</from>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>95a14611db6c0090f48fdbf96896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <to display_value="Wait for Stage to be set as Verification Completed">91a10611db6c0090f48fdbf968961924</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">dda14611db6c0090f48fdbf96896199c</condition>
+        <from display_value="Set Status as Approved">19a14611db6c0090f48fdbf96896199c</from>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>d9a14611db6c0090f48fdbf96896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <to display_value="End">9da10611db6c0090f48fdbf968961922</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">dda14611db6c0090f48fdbf96896199d</condition>
+        <from display_value="Begin">55a14611db6c0090f48fdbf96896199d</from>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>dda14611db6c0090f48fdbf96896199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <to display_value="Assign to Compliance and Ethics Group">15a14611db6c0090f48fdbf96896199b</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-16 14:08:41</sys_created_on>
+        <sys_id>11a10611db6c0090f48fdbf968961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-10-16 14:08:41</sys_updated_on>
+        <workflow_version display_value="CandE_EMT Report of Financial Engagement Form">5da10611db6c0090f48fdbf96896191f</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=cb9b5fd0db584c10f48fdbf968961902^sys_id!=5da10611db6c0090f48fdbf96896191f">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

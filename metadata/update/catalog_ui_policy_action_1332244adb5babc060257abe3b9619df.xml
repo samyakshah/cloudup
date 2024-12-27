@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Approval Form for membership in Trade Association(s)">b9047e04db5363c060257abe3b961936</catalog_item>
+        <catalog_variable>IO:31fc0752dbe7e30060257abe3b96195c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-01-30 15:37:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1332244adb5babc060257abe3b9619df</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>v_confirmation</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1332244adb5babc060257abe3b9619df</sys_update_name>
+        <sys_updated_by>KRAFI</sys_updated_by>
+        <sys_updated_on>2019-02-13 08:59:51</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Fields Behaviour in Record">29ed5086db5babc060257abe3b961908</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>v_confirmation</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

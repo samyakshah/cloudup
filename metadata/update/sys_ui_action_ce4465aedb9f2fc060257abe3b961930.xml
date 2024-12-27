@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>ce_next</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2/>
+        <comments>Advance to the next stage</comments>
+        <condition>(current.u_compliance_ethics_stage == "Compliance and Ethics Verification" &amp;&amp; gs.hasRole("x_vocr_ce.user") &amp;&amp; current.assigned_to != "")</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Next</name>
+        <onclick>ceNext()</onclick>
+        <order>100</order>
+        <script><![CDATA[function ceNext()
+{
+	g_form.setMandatory('work_notes',true);
+	//Call the UI Action and skip the 'onclick' function
+	gsftSubmit(null, g_form.getFormElement(), 'ce_next'); //MUST call the 'Action name' set in this UI Action
+}
+
+//Code that runs without 'onclick'
+//Ensure call to server-side function with no browser errors
+if (typeof window == 'undefined')
+	moveNextCE();
+
+function moveNextCE()
+{
+	action.setRedirectURL(current);
+	current.u_compliance_ethics_stage = "Verification Completed";
+	current.update();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-02-01 09:57:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ce4465aedb9f2fc060257abe3b961930</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Next</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_ui_action_ce4465aedb9f2fc060257abe3b961930</sys_update_name>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-02-05 23:30:04</sys_updated_on>
+        <table>x_vocr_ce_compliance_and_ethics_request</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>vcc_compliance_and_ethics_requests</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-02-05 09:11:37</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c763c23bdb5bef0060257abe3b961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vcc_compliance_and_ethics_requests</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sp_page_c763c23bdb5bef0060257abe3b961919</sys_update_name>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-02-05 09:11:37</sys_updated_on>
+        <title>VCC Compliance and Ethics Requests</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=c763c23bdb5bef0060257abe3b961919"/>
+</record_update>

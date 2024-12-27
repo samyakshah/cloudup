@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_vocr_ce.u_compliance_ethics_UtilSI</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>u_compliance_ethics_UtilSI</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var u_compliance_ethics_UtilSI = Class.create();
+u_compliance_ethics_UtilSI.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	
+	/** Used from CLIENT SCRIPT (client side scripts)
+ 	* Returns Glide Record if record found by querying a table.
+ 	* Input - TableName, Query
+ 	*/
+	
+	isRecFoundorNotReturnGRCS : function(){
+		var table =this.getParameter('sysparm_table');
+		var sysID =this.getParameter('sysparm_sysID');
+		var gr = new GlideRecord(table);
+		gr.get(sysID);
+		var xmlSerializer = new global.ScopedXmlSerializer();
+		var taskXML = xmlSerializer.serialize(gr);
+		//var helper = new XMLHelper(taskXML);
+		var xmlObj = gs.xmlToJSON(taskXML);
+		var json = new global.JSON().encode(xmlObj);
+		return json;
+	},
+	
+	//Show only if expiry is less than 30 days
+	canRenew : function(ethics_request){
+		if(ethics_request !=''){
+			var answer_ce=false;
+			var number=ethics_request.number;//Get the record number
+			var grComp=new GlideRecord('x_vocr_ce_compliance_and_ethics_request');
+			grComp.addQuery('number',number);
+			grComp.addQuery('active','true');
+			grComp.query();
+			if(grComp.next())//To check the days duration with the current time
+				{
+				var exp_date = grComp.u_expiry_on;
+				if(exp_date !='')
+					{
+					var sdt = new GlideDateTime();
+					sdt.setValue(exp_date);// Get the expiry time
+					var y= new GlideDateTime();// Get the current time
+					var diff = GlideDateTime.subtract(y,sdt);
+					var dur = diff.getNumericValue();
+					var days= dur/1000/60/60/24;
+					if(days>0 && days<30)
+						answer_ce=true;
+					
+					
+					
+				}
+				
+			}
+			return answer_ce;
+		}
+	},
+	
+	
+	type: 'u_compliance_ethics_UtilSI'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-01-25 12:15:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6f33ca10dbdf63c060257abe3b961906</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>u_compliance_ethics_UtilSI</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_script_include_6f33ca10dbdf63c060257abe3b961906</sys_update_name>
+        <sys_updated_by>KRAFI</sys_updated_by>
+        <sys_updated_on>2019-05-09 11:28:39</sys_updated_on>
+    </sys_script_include>
+</record_update>

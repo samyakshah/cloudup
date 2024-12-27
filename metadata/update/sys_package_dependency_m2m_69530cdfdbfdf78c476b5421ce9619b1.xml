@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="ITIL Services" source="com.snc.service">5a9b8272cd303000cbeb34a2c58d4b44</dependency>
+        <min_version/>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-06-07 17:12:01</sys_created_on>
+        <sys_id>69530cdfdbfdf78c476b5421ce9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-06-07 17:12:01</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

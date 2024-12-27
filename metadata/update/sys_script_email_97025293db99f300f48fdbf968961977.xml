@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>u_comp_ethics_approval_URL_Link_record_ce</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+	// Add your code here
+	var comp = new GlideRecord('x_vocr_ce_compliance_and_ethics_request');
+	comp.get(current.sys_id);
+	
+	var instanceURL = gs.getProperty("glide.servlet.uri");
+	var generatedURL = instanceURL+"sp?id=ticket&table=x_vocr_ce_compliance_and_ethics_request&sys_id="+comp.sys_id;
+	template.print( "<span class='tabletext'><a href='" + generatedURL + "'>" + comp.number + "</a></span>");
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>KRAFI</sys_created_by>
+        <sys_created_on>2019-05-14 07:04:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>97025293db99f300f48fdbf968961977</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_comp_ethics_approval_URL_Link_record_ce</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_script_email_97025293db99f300f48fdbf968961977</sys_update_name>
+        <sys_updated_by>KRAFI</sys_updated_by>
+        <sys_updated_on>2019-05-14 07:04:09</sys_updated_on>
+    </sys_script_email>
+</record_update>

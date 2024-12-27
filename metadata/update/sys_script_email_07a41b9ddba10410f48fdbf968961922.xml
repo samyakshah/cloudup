@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>u_comp_ethics_approval_content</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(/* GlideRecord */ current, /* TemplatePrinter */ template,
+/* Optional EmailOutbound */ email, /* Optional GlideRecord */ email_action,
+/* Optional GlideRecord */ event) {
+	
+	// Add your code here
+	var comp = new GlideRecord('x_vocr_ce_compliance_and_ethics_request');
+	comp.get(current.sys_id);
+	
+	var instanceURL = gs.getProperty("glide.servlet.uri");
+	var generatedURL = instanceURL+"sp?id=ticket&table=x_vocr_ce_compliance_and_ethics_request&sys_id="+comp.sys_id;
+	
+if(comp.u_record_producer=="b9047e04db5363c060257abe3b961936"){
+	var link_1='http://bms.volvocars.net/apps/BMS/bms_vd.nsf/intranetdocs/1205130236BOF?opendocument';
+	var link_2='http://bms.volvocars.net/apps/BMS/bms_vd.nsf/intranetdocs/1121094247JEA?opendocument';
+	var link_3='https://vcc.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/sppubvcc/_scorm12_sppubvcc_lod004531';
+	
+	
+	
+	template.print( "<tbody><tr><td colspan='2'>The approval is valid for one year, after which you will have to renew the approval.</td></tr><tr><td colspan='2'>&nbsp;</td></tr><tr><td colspan='2'><p>As the competition law area is very complex,you are expected to:</p><ul style='list-style-position: inside;'><li>Always follow the requirements set out in the <a title='Competition Law Policy' href='"+link_1+"' target='_blank'>Competition Law Policy</a> and the <a title='Directive on Interaction between competitors' href='"+link_2+"' target='_blank'>Directive on Interaction between competitors</a>,as well as any other directive/guidelinethat may be applicable when participating in the meetings of this trade association.</li></ul><p>&nbsp;</p><ul style='list-style-position: inside;'><li>If you have not participated in any face-to-face training or taken any e-learning related to interaction with competitors in the past [2 years], you are expected to go through <a title='this webinar' href='"+link_3+"' target='_blank'>this webinar</a> that sets out the key rules and processes that apply when interacting with a competitor.</li></ul><p>&nbsp;</p></td></tr></tbody>");
+	}
+	else if(comp.u_record_producer=="9d18d8b5db8fbb4023b96def4b9619bd"){
+	//Conflict	
+		var link_4='http://bms.volvocars.net/apps/bms/bms_vd.nsf/intranetdocs/1205131331BOF?opendocument';
+		template.print( "<tbody><tr><td colspan='2'>Please see ensure you review your request in Service Now as there may be specific comments linked to the approval of your request.</td></tr><tr><td colspan='2'>&nbsp;</td></tr><tr><td colspan='2'>Please remember that you are required to send in a renewed form, should the situation or your engagement change in the future in a way that could impact this decision. More information on how to act is available in the <a title='Conflict of Interest Policy' href='"+link_4+"' target='_blank'>Conflict of Interest Policy</a></td></tr></tbody>");
+	}
+	else if(comp.u_record_producer=="8adc97c8db47f340f48fdbf968961932"){
+		//EMT
+		var link_5='http://bms.volvocars.net/apps/bms/bms_vd.nsf/intranetdocs/1205131331BOF?opendocument';
+		template.print( "<tbody><tr><td colspan='2'>Please remember that you, in order to remain compliant with relevant corporate governance requirements, are required to send in a renewed form should your list of financial engagements change in the future. More information on how to act is available in the <a title='Conflict of Interest Policy' href='"+link_5+"' target='_blank'>Conflict of Interest Policy</a></td></tr></tbody>");
+	}
+	else if(comp.u_record_producer=="38a87ce8db477740f48fdbf9689619d5"){
+		//Benchmarking
+		var link_6='http://bms.volvocars.net/apps/bms/bms_vd.nsf/intranetdocs/1205131331BOF?opendocument';
+		var link_7='http://bms.volvocars.net/apps/bms/bms_vd.nsf/intranetdocs/1121094247JEA?opendocument';
+		var link_8='https://intranet.volvocars.net/volvo-car-group/corporate-policies/competition-law-policy';
+		template.print( "<tbody><tr><td colspan='2'	Please see ensure you review your request in Service Now as there may be specific comments linked to the approval of your request. <br/>It is of great importance that you at all times remain compliant with the provisions set out in the <a title='Competition Law Policy' href='"+link_6+"' target='_blank'>Competition Law Policy</a>, the <a title='Directive on Interaction between Competitors' href='"+link_7+"' target='_blank'>Directive on Interaction between Competitors</a> and <a title='any other directive/guideline' href='"+link_8+"' target='_blank'>any other directive/guideline</a> that may be applicable during the course of your benchmarking/market intelligence project.</td></tr></tbody>");
+	
+
+	}
+	else if(comp.u_record_producer=="a89ff8e8db877740f48fdbf96896192d"){
+		//Gift
+		
+		template.print( "<tbody><tr><td colspan='2'>Please see relevant comments included in your request as there may be specific actions for follow up for in relation to this approval.</td></tr></tbody>");
+	}
+	else if(comp.u_record_producer=="ba8f76d9db4b3b4023b96def4b961952"){
+		//Agent
+		var link_9='https://assets.volvocars.com/~/media/ccs/shared/code-of-conduct/code_of_conduct_for_business_partners_oct_2019.pdf';
+		template.print( "<tbody><tr><td colspan='2'>Please see relevant comments included in your request as there may be specific actions for follow up for in relation to this approval.<br/>Furthermore, please ensure that the agent commits to act in accordance with our Business Partner Statement and  <a title='Code of Conduct for Business Partners' href='"+link_9+"' target='_blank'>Code of Conduct for Business Partners</a></td></tr></tbody>");
+
+	}
+	
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-12-05 13:14:13</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>07a41b9ddba10410f48fdbf968961922</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>u_comp_ethics_approval_content</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_script_email_07a41b9ddba10410f48fdbf968961922</sys_update_name>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-12-05 14:21:21</sys_updated_on>
+    </sys_script_email>
+</record_update>

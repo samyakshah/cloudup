@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>3</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">ce83463bdb5bef0060257abe3b96199d</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget/>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-02-05 09:46:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>097bc2f3db9bef0060257abe3b9619aa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sp_instance_vlist_097bc2f3db9bef0060257abe3b9619aa</sys_update_name>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-02-05 12:47:12</sys_updated_on>
+        <table>x_vocr_ce_compliance_and_ethics_request</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "u_requested_for_ssp,u_approved_on,u_record_producer",
+		"displayValue": "u_requested_for_ssp,u_approved_on,u_record_producer"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=097bc2f3db9bef0060257abe3b9619aa"/>
+</record_update>

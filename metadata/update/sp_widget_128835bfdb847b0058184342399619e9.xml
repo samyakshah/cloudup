@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope, $animate, $rootScope) {
+  $scope.$watch("data.task", function() {
+    $scope.task = $scope.data.task; // copy for shortcuts above
+  });
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>label{
+  font-weight: bold;
+}
+
+a.linkcolor{
+color:#2B7BCD;
+}
+
+td.ng-binding {
+    font-family: Volvo Sans Regular;
+  font-size: 12px;
+}
+
+a.ng-binding {
+  font-family: Volvo Sans Regular;
+  font-size: 12px;
+}
+p.ng-binding {
+  font-family: Volvo Sans Regular;
+  font-size: 12px;
+}
+
+.whys {
+   font-family: Volvo Sans Regular !important;
+    font-size: 12px !important;
+  white-space: pre-wrap !important;
+}
+
+
+/*table#rcdetails {
+  border-color: #000;
+}*/</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>vcc_complaince_ethics_approval_record</id>
+        <internal>false</internal>
+        <link/>
+        <name>VCC Complaince Ethics Approval Record</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[// g_approval_form_request is for approval summarizer ACLs
+// that let user read a record they need to approve. This global
+// variable is then deleted at the bottom of the script
+g_approval_form_request = true;
+var gr = $sp.getRecord();
+if (gr == null || !gr.isValid()) {
+	data.isValid = false;
+	//return;
+}
+
+if (gr.getValue("approver") != gs.getUserID())
+	data.approver = gr.approver.getDisplayValue();
+data.isValid = true;
+var task = getRecordBeingApproved(gr);
+var t = {};
+t = $sp.getFieldsObject(task, 'number,short_description,opened_by,u_requested_for_ssp,u_renewal_check,parent,sys_id,sys_class_name');
+t.table = task.getLabel();
+
+var items = [];
+var idx = 0;
+var itemsGR = new GlideRecord("sc_req_item");
+itemsGR.addQuery("request", task.sys_id);
+itemsGR.query();
+while (itemsGR.next()) {
+  var item = {};
+  item.short_description = itemsGR.short_description.toString();
+  if (itemsGR.getValue("price") > 0)
+	  item.price = itemsGR.getDisplayValue("price");
+  
+  if (itemsGR.getValue("recurring_price") > 0) {
+	  item.recurring_price = itemsGR.getDisplayValue("recurring_price");
+		item.recurring_frequency = itemsGR.getDisplayValue("recurring_frequency");
+  }
+  
+  if (itemsGR)
+	  item.variables = $sp.getRecordVariablesArray(itemsGR);
+  
+  items[idx] = item;
+  idx++;
+}
+
+data.items = items;
+data.sys_id = gr.getUniqueValue();
+data.task = t;
+if (task)
+  data.variables = $sp.getRecordVariablesArray(task);
+
+function getRecordBeingApproved(gr) {
+  if (!gr.sysapproval.nil())
+    return gr.sysapproval.getRefRecord();
+
+  return gr.document_id.getRefRecord();
+}
+
+var ticketConversationOptions = {
+	sys_id: task.getUniqueValue(),
+	table: task.getTableName(),
+	title: gs.getMessage("Activity Stream"),
+	placeholder: gs.getMessage("Type your message here..."),
+	placeholderNoEntries: gs.getMessage("Start a conversation..."),
+	btnLabel: gs.getMessage("Send")
+};
+
+data.ticketConversation = $sp.getWidget('u-vcc-widget-ticket-conversation', ticketConversationOptions);
+delete g_approval_form_request;]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-03-14 15:11:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>128835bfdb847b0058184342399619e9</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>VCC Complaince Ethics Approval Record</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sp_widget_128835bfdb847b0058184342399619e9</sys_update_name>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-03-15 10:42:20</sys_updated_on>
+        <template><![CDATA[<div ng-if="task.table =='Compliance and Ethics Request'">
+<div ng-if="!data.isValid">
+	${Record not found}
+</div>
+
+<div ng-if="data.isValid">
+<div class="panel panel-{{::options.color}} b">
+  							
+
+    <div class="panel-heading">
+        <div ng-if="task.table == 'Compliance and Ethics Request'">
+			<h4 class="panel-title">${Approval request for {{::task.table}} <a class="linkcolor" ng-href="/sp?id=ticket&table={{::task.sys_class_name.value}}&sys_id={{::task.sys_id.value}}&view=sp/" target="_blank" role="link"> {{::task.number.display_value}}</a></h4>
+		</div>
+                                
+    </div>
+  							
+ 							
+	
+	<div class="panel-body">
+		<div ng-if="task.short_description">{{::task.short_description.display_value}}</div>
+		<div ng-if="task.opened_by"><label>${Opened by}</label> {{::task.opened_by.display_value}}</div>
+		<div ng-if="task.u_requested_for_ssp"><label>${Requestor}</label> {{::task.u_requested_for_ssp.display_value}}</div>
+		<div ng-if="::data.approver"><label>${Approver}</label> {{::data.approver}}</div>
+      	<div ng-if="task.u_renewal_check.display_value == 'true'">
+          	<div><label>${Renewal}</label> {{::task.u_renewal_check.display_value}}</div>
+          	<div><label>${Renewal for}</label> {{::task.parent.display_value}}</div>
+        </div>
+    
+		<div ng-if="data.items.length > 0">
+			<h4>${Items in this Request}</h4>
+			<div ng-repeat="item in data.items">
+                <div ng-if="item.table != 'kb_knowledge'">
+                     <h4>{{::item.short_description}}</h4>
+                </div>        
+				<div ng-if="task.short_description">{{::task.short_description.display_value}}</div>
+				<div ng-if="task.opened_by"><label>${Opened by}</label> {{::task.opened_by.display_value}}</div>
+				<div ng-if="task.u_requested_for_ssp"><label>${Requestor}</label> {{::task.u_requested_for_ssp.display_value}}</div>
+				<div ng-if="::data.approver"><label>${Approver}</label> {{::data.approver}}</div>
+      			<div ng-if="task.u_renewal_check == true">
+          			<div><label>${Renewal}</label> {{::task.u_renewal_check.display_value}}</div>
+          			<div><label>${Renewal for}</label> {{::task.parent.display_value}}</div>
+        		</div>
+				<div ng-if="item1.variables.length > 0" ng-init="variable_toggle=false">
+					<h5 ng-click="variable_toggle = !variable_toggle" style="cursor: pointer;">
+						<span class="glyphicon" ng-class="{'glyphicon-chevron-down': !variable_toggle, 'glyphicon-chevron-up': variable_toggle}"></span>
+						${Options}
+					</h5>
+					<div ng-repeat="variable in item1.variables | filter:{visible_summary:true}" class="m-b-xs" ng-if="variable_toggle">
+                        <div ng-if="variable.label.indexOf('vccUniqueId') == -1 && variable.label.indexOf('vccUniqueId_') == -1 && variable.label.indexOf('vccCount') == -1 && variable.label.indexOf('vccCount_') == -1">
+							<div ng-if="variable.display_value != '-- None --'">
+								<label>{{::variable.label}}</label>
+                                <div ng-bind-html="variable.display_value"></div> 
+                          	</div>
+                         </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+    	<div ng-if="data.variables.length > 0" ng-init="variable_toggle=true">
+			<h5 ng-click="variable_toggle = !variable_toggle" style="cursor: pointer;">
+				<span class="glyphicon" ng-class="{'glyphicon-chevron-down': !variable_toggle, 'glyphicon-chevron-up': variable_toggle}"></span>
+				${Details}
+			</h5>
+            <div ng-repeat="variable in data.variables | filter:{visible_summary:true}" ng-if="variable_toggle">
+				<div ng-if="variable.label.indexOf('vccUniqueId') == -1 && variable.label.indexOf('vccUniqueId_') == -1 && variable.label.indexOf('vccCount') == -1 && variable.label.indexOf('vccCount_') == -1">
+					<div ng-if="variable.display_value != '-- None --'">
+						<div ng-if= "variable.type != 7 || (variable.type == 7 && variable.display_value != 'false')">
+							<label class="m-n"><b>{{variable.label}}</b></label>
+							<div ng-bind-html="variable.display_value"></div> 
+              <p> </p>
+						</div>
+					</div>
+				</div>
+            </div>
+   		 </div>  
+	</div>
+  <div>
+  </div>
+ 
+  
+</div>
+ <div>
+	 <sp-widget widget="data.ticketConversation" />
+  </div>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

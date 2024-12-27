@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_vocr_ce_compliance_and_ethics_request</basic_apply_to>
+        <basic_query_from>x_vocr_ce_compliance_and_ethics_request</basic_query_from>
+        <insert_callback/>
+        <name>Related Compliance and Ethics Requests</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	current.addQuery('parent', parent.parent);
+	current.addQuery('state',"!=","4");
+	current.addQuery('sys_id', "!=", parent.sys_id);
+
+})(current, parent);]]></query_with>
+        <reference_field>assigned_to</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-02-05 23:48:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d8eb814cdbaf234060257abe3b961916</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Related Compliance and Ethics Requests</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_relationship_d8eb814cdbaf234060257abe3b961916</sys_update_name>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-02-06 00:00:59</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=d8eb814cdbaf234060257abe3b961916"/>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>1525</order>
+        <sc_cat_item display_value="EMT Report of Financial Engagement Form">8adc97c8db47f340f48fdbf968961932</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-07-31 05:46:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f24c27d4db4f3740f48fdbf968961938</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>EMT member to complete. List the Financial Engagement(s):.EMT Report of Financial Engagement Form</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>io_set_item_f24c27d4db4f3740f48fdbf968961938</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-07-31 06:18:34</sys_updated_on>
+        <variable_set display_value="EMT member to complete. List the Financial Engagement(s):">9871c01cdbc7f340f48fdbf96896192b</variable_set>
+    </io_set_item>
+</record_update>

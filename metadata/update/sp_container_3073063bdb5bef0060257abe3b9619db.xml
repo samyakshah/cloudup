@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>VCC Compliance and Ethics Requests - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="vcc_compliance_and_ethics_requests">c763c23bdb5bef0060257abe3b961919</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-02-05 09:11:44</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3073063bdb5bef0060257abe3b9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VCC Compliance and Ethics Requests - Container 1</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sp_container_3073063bdb5bef0060257abe3b9619db</sys_update_name>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-02-05 09:11:44</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

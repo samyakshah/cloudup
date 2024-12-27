@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_vocr_ce.request.30daysnotice</event_name>
+        <fired_by>Scheduled Job</fired_by>
+        <priority>100</priority>
+        <queue/>
+        <suffix>request.30daysnotice</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>KRAFI</sys_created_by>
+        <sys_created_on>2019-04-13 09:27:08</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3569831ddb70f380f48fdbf9689619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_vocr_ce.request.30daysnotice</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sysevent_register_3569831ddb70f380f48fdbf9689619d5</sys_update_name>
+        <sys_updated_by>KRAFI</sys_updated_by>
+        <sys_updated_on>2019-04-13 09:27:08</sys_updated_on>
+        <table>x_vocr_ce_compliance_and_ethics_request</table>
+    </sysevent_register>
+</record_update>

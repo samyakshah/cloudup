@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>sysapproval_approver</collection>
+        <condition table="sysapproval_approver">sysapproval.sys_class_name=x_vocr_ce_compliance_and_ethics_request^EQ<item display_value="Compliance and Ethics Request" endquery="false" field="sysapproval.sys_class_name" goto="false" newquery="false" operator="=" or="false" value="x_vocr_ce_compliance_and_ethics_request"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description>Notification to be sent to approver when approval inserted</description>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<br><hr><br>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>approval.inserted</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>${mail_script:u_task_IT_CSS}</p>
+<table class="tablecss">
+<tbody>
+<tr>
+<td colspan="2"><span class="tabletext">Dear ${approver},</span></td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2"><span class="tabletext">This is to inform you that you have been assigned as an approver for a ${mail_script:u_comp_ethics_request_names}. Please log on via the link below to review and approve the request</span></td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;Number :${sysapproval}</td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;Requested for: ${sysapproval.u_requested_for_ssp}</td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;Type:${sysapproval.u_record_producer}</td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+<td colspan="2"><span class="tabletext">${mail_script:u_srm_approval_URLLink}</span></td>
+</tr>
+<tr>
+<td colspan="2">&nbsp;</td>
+</tr>
+<tr>
+<td class="bg2" colspan="2">Best Regards<br />Compliance &amp; Ethics Office</td>
+</tr>
+</tbody>
+</table>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Compliance and Ethics Approval Request</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>approver</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>FYA: Approval of your Compliance and Ethics request ${sysapproval}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-02-05 23:00:34</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>af1fbc48dbab234060257abe3b9619c4</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Compliance and Ethics Approval Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sysevent_email_action_af1fbc48dbab234060257abe3b9619c4</sys_update_name>
+        <sys_updated_by>KRAFI</sys_updated_by>
+        <sys_updated_on>2019-04-01 11:49:51</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

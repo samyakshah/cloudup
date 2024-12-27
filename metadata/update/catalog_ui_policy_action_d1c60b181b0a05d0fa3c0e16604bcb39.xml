@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Interactions with Competitors">88931b801b12ac1007e82fc3b24bcbe6</catalog_item>
+        <catalog_variable>IO:87400b981b8605d0fa3c0e16604bcb6d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>ASHARM28</sys_created_by>
+        <sys_created_on>2022-03-01 14:55:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d1c60b181b0a05d0fa3c0e16604bcb39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unit_manager_review_and_approval</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d1c60b181b0a05d0fa3c0e16604bcb39</sys_update_name>
+        <sys_updated_by>ASHARM28</sys_updated_by>
+        <sys_updated_on>2022-03-01 14:55:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Visible Unit Manager review and approval">99960fd41b0a05d0fa3c0e16604bcba3</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>unit_manager_review_and_approval</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

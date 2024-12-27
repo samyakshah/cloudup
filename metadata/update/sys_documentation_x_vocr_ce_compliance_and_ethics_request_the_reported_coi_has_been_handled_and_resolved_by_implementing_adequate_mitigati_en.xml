@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="the_reported_coi_has_been_handled_and_resolved_by_implementing_adequate_mitigati" label="The reported CoI has been handled and resolved by implementing adequate mitigati" language="en" table="x_vocr_ce_compliance_and_ethics_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>the_reported_coi_has_been_handled_and_resolved_by_implementing_adequate_mitigati</element>
+            <help/>
+            <hint/>
+            <label>The reported CoI has been handled and resolved by implementing adequate mitigati</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <plural>The reported CoI has been handled and resolved by implementing adequate mitigati</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>SS</sys_created_by>
+            <sys_created_on>2019-12-07 19:29:36</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9dcd7e86db2d8410f48fdbf9689619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>The reported CoI has been handled and resolved by implementing adequate mitigati</sys_name>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_documentation_x_vocr_ce_compliance_and_ethics_request_the_reported_coi_has_been_handled_and_resolved_by_implementing_adequate_mitigati_en</sys_update_name>
+            <sys_updated_by>SS</sys_updated_by>
+            <sys_updated_on>2019-12-07 19:29:36</sys_updated_on>
+            <u_apllication_user_id/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

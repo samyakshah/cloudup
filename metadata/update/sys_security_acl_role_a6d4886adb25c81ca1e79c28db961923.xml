@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-12-08 19:18:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>a6d4886adb25c81ca1e79c28db961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_vocr_ce_compliance_and_ethics_request.i_concur_with_the_line_manager_s_confirmation.snc_internal</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_security_acl display_value="x_vocr_ce_compliance_and_ethics_request.i_concur_with_the_line_manager_s_confirmation">f6a1c42edbedc410f48fdbf9689619b9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a6d4886adb25c81ca1e79c28db961923</sys_update_name>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-12-08 19:18:39</sys_updated_on>
+        <sys_user_role display_value="snc_internal" name="snc_internal">7fcaa702933002009c8579b4f47ffbde</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_svp" table="x_vocr_ce_compliance_and_ethics_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_svp</element>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-06 08:07:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>78d688d3db713b8c476b5421ce96195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_svp</sys_name>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_choice_x_vocr_ce_compliance_and_ethics_request_u_svp</sys_update_name>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-06 08:07:31</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anders Bell</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>MTHATIKO</sys_created_by>
+            <sys_created_on>2023-01-27 11:31:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>34e708d7972c611021e2bbe6f053af9f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>MTHATIKO</sys_updated_by>
+            <sys_updated_on>2023-01-27 11:31:29</sys_updated_on>
+            <value>ABELL32</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Anders Gustafsson</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:06:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ac24b0c4db6473c060257abe3b9619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:06:29</sys_updated_on>
+            <value>AGUSTA81</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Arek Nowinski</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ASAXENA1</sys_created_by>
+            <sys_created_on>2021-05-10 09:07:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>6fc9a65d1b443c10fa3c0e16604bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ASAXENA1</sys_updated_by>
+            <sys_updated_on>2021-05-10 09:07:44</sys_updated_on>
+            <value>ANOWINSK</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Björn Annwall</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>98a37c44db6473c060257abe3b9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:04:16</sys_updated_on>
+            <value>BANNWALL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Cedric Dubar</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-06 08:07:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fd5ef688db67634060257abe3b9619e9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-05-23 11:00:43</sys_updated_on>
+            <value>CDUBAR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Geert Bruyneel</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ASHARM28</sys_created_by>
+            <sys_created_on>2022-06-21 14:04:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>022d631097dc595421e2bbe6f053afe3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ASHARM28</sys_updated_by>
+            <sys_updated_on>2022-06-21 14:07:17</sys_updated_on>
+            <value>GBRUYNEE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Helena Bergström Pilo</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>SVANGAV1</sys_created_by>
+            <sys_created_on>2023-03-02 12:18:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7198978a9799ed9021e2bbe6f053af2c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>SVANGAV1</sys_updated_by>
+            <sys_updated_on>2023-03-02 12:20:27</sys_updated_on>
+            <value>HBERGSTR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hanna Fager</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:03:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fb8370c4db6473c060257abe3b9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:03:58</sys_updated_on>
+            <value>HFAGER</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Carl Henrik Green</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:05:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1fc3f0c4db6473c060257abe3b961909</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:05:01</sys_updated_on>
+            <value>HGREEN4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Hans Oscarsson</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:04:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a0b3f0c4db6473c060257abe3b9619b8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>MTHATIKO</sys_updated_by>
+            <sys_updated_on>2022-09-28 16:52:31</sys_updated_on>
+            <value>HOSCARSS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Johan Ekdahl</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>MTHATIKO</sys_created_by>
+            <sys_created_on>2022-09-28 15:01:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dd9f695c9756999421e2bbe6f053af2b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>MTHATIKO</sys_updated_by>
+            <sys_updated_on>2022-09-28 15:01:58</sys_updated_on>
+            <value>JEKDAHL1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jim Rowan</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:03:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0a6330c4db6473c060257abe3b9619b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ASHARM28</sys_updated_by>
+            <sys_updated_on>2022-06-21 14:03:42</sys_updated_on>
+            <value>JROWAN</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Javier Varela</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:06:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8a3438c4db6473c060257abe3b9619b9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:06:51</sys_updated_on>
+            <value>JVARELAS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kristian Abel</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>AZOAD</sys_created_by>
+            <sys_created_on>2022-09-08 09:13:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>21ff957997b5559021e2bbe6f053affa</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>AZOAD</sys_updated_by>
+            <sys_updated_on>2022-09-08 09:16:04</sys_updated_on>
+            <value>KABEL1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kerstin Enochsson</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>ASAXENA1</sys_created_by>
+            <sys_created_on>2021-05-10 09:05:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9b692e1d1b443c10fa3c0e16604bcb01</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>ASAXENA1</sys_updated_by>
+            <sys_updated_on>2021-05-10 09:08:00</sys_updated_on>
+            <value>KENOCHSS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Alexander Kerssemakers</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:05:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>65f3f4c4db6473c060257abe3b961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:05:44</sys_updated_on>
+            <value>LKERSSEM</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Martina Buchhauser</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-06 08:07:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>b95ef688db67634060257abe3b9619e7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>ASAXENA1</sys_updated_by>
+            <sys_updated_on>2021-05-10 09:09:55</sys_updated_on>
+            <value>MBUCHHAU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maria Hemberg</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:03:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>43737444db6473c060257abe3b9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:03:38</sys_updated_on>
+            <value>MHEMBERG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mårten Levenstam</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:07:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1e44f0c4db6473c060257abe3b961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:07:08</sys_updated_on>
+            <value>MLEVENST</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Mats Moberg</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>SSHARM10</sys_created_by>
+            <sys_created_on>2019-07-04 17:15:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>da7643bfdb9e3344f48fdbf968961945</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>AZOAD</sys_updated_by>
+            <sys_updated_on>2022-09-13 12:30:47</sys_updated_on>
+            <value>MMOBERG</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ödgärd Andersson</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:07:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ab547cc4db6473c060257abe3b9619dc</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>SSHARM10</sys_updated_by>
+            <sys_updated_on>2019-07-11 08:36:31</sys_updated_on>
+            <value>OANDER16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Per Ansgar</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>SSHARM10</sys_created_by>
+            <sys_created_on>2019-07-11 08:12:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>59cdc946dba67f44f48fdbf968961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SSHARM10</sys_updated_by>
+            <sys_updated_on>2019-07-11 08:12:21</sys_updated_on>
+            <value>PANSGAR</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_svp</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Xiaolin Yuan</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-03-27 15:06:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0c14b0c4db6473c060257abe3b96190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-03-27 15:06:10</sys_updated_on>
+            <value>XYUAN10</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

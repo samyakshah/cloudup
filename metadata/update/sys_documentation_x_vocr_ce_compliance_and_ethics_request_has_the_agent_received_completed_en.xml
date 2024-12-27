@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="has_the_agent_received_completed" label="Has the Agent received, completed and returned the Due Diligence Questionnaire?" language="en" table="x_vocr_ce_compliance_and_ethics_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>has_the_agent_received_completed</element>
+            <help/>
+            <hint/>
+            <label>Has the Agent received, completed and returned the Due Diligence Questionnaire?</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <plural>Has the Agent received, completed and returned the Due Diligence Questionnaire?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>SS</sys_created_by>
+            <sys_created_on>2019-12-07 23:39:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b9e6b382db21c410f48fdbf96896191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Has the Agent received, completed and returned the Due Diligence Questionnaire?</sys_name>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_documentation_x_vocr_ce_compliance_and_ethics_request_has_the_agent_received_completed_en</sys_update_name>
+            <sys_updated_by>SS</sys_updated_by>
+            <sys_updated_on>2019-12-07 23:39:13</sys_updated_on>
+            <u_apllication_user_id/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="has_the_agent_received_completed" table="x_vocr_ce_compliance_and_ethics_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>has_the_agent_received_completed</element>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>SS</sys_created_by>
+            <sys_created_on>2019-12-07 23:39:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5a6127dadb69881ca1e79c28db961996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>has_the_agent_received_completed</sys_name>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_choice_x_vocr_ce_compliance_and_ethics_request_has_the_agent_received_completed</sys_update_name>
+            <sys_updated_by>SS</sys_updated_by>
+            <sys_updated_on>2019-12-07 23:39:53</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>has_the_agent_received_completed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>SS</sys_created_by>
+            <sys_created_on>2019-12-07 23:39:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3be6f382db21c410f48fdbf96896194c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SS</sys_updated_by>
+            <sys_updated_on>2019-12-07 23:39:53</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>has_the_agent_received_completed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>SS</sys_created_by>
+            <sys_created_on>2019-12-07 23:40:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>32177782db21c410f48fdbf968961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>SS</sys_updated_by>
+            <sys_updated_on>2019-12-07 23:40:07</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Form for benchmarking or market intelligence projects">38a87ce8db477740f48fdbf9689619d5</catalog_item>
+        <catalog_variable>IO:2afb7abedbc4c410f48fdbf96896193e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>20</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-10-23 16:44:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>385826e7dba04890f48fdbf968961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e_department</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_385826e7dba04890f48fdbf968961975</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-10-23 16:44:50</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Fields Behaviour in Record">f7275f12db87bf4023b96def4b961941</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>e_department</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

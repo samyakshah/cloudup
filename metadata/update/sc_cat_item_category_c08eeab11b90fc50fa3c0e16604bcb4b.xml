@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Interactions with Competitors">88931b801b12ac1007e82fc3b24bcbe6</sc_cat_item>
+        <sc_category display_value="Compliance and Ethics">8c33b374db7b234058184342399619a5</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>ASAXENA1</sys_created_by>
+        <sys_created_on>2021-05-24 08:59:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c08eeab11b90fc50fa3c0e16604bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compliance and Ethics.Interactions with Competitors</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sc_cat_item_category_c08eeab11b90fc50fa3c0e16604bcb4b</sys_update_name>
+        <sys_updated_by>ASAXENA1</sys_updated_by>
+        <sys_updated_on>2021-05-24 08:59:23</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

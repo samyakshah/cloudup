@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($location, $rootScope, $scope, spUtil) {
+	var c = this;
+	this.filterText = "";
+	this.showFilter = false;
+	
+	this.onClick = function($event, item, url, action) {
+		$event.stopPropagation();
+		$event.preventDefault();
+		if (url)
+			$location.search(url);
+		else {
+			var evt = {};
+				evt.url = url;
+				evt.table = c.data.table;
+				evt.sys_id = item.sys_id;
+				evt.record = item;
+				evt.rectangle_id = c.data.sys_id;
+				evt.action = action;
+				// put out the selection with simple list "sl_" prefix
+				$location.search('sl_sys_id', evt.sys_id);
+				$location.search('sl_table', evt.table);
+				$location.search('spa', 1); // spa means "I've got this"
+				$rootScope.$broadcast('$sp.list.click', evt);
+			}
+		};
+		
+		function get() {
+			spUtil.update($scope);
+			$scope.IsVisible = false;
+		}
+		
+		// pagination
+		$scope.previousPage = function() {
+			if ($scope.data.pagination.currentPage > 1)
+				$scope.data.pagination.currentPage = $scope.data.pagination.currentPage - 1;
+			else
+				$scope.data.pagination.currentPage = 0;
+			
+			get();
+		}
+		
+		$scope.nextPage = function() {
+			$scope.data.pagination.currentPage = $scope.data.pagination.currentPage+1;
+			get();
+		}
+	}
+	
+	]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,color,glyph</field_list>
+        <has_preview>true</has_preview>
+        <id>vcc-compliance-ethics-request-widget</id>
+        <internal>false</internal>
+        <link/>
+        <name>VCC Compliance and Ethics Requests</name>
+        <option_schema>[{"hint":"Number of records to show","name":"maximum_entries","label":"Maximum entries","type":"integer"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if (!options.maximum_entries)
+		options.maximum_entries = 20;
+	
+	//we get only a max number of elements to avoid to have a big list of it
+	var maxNumberOfItemsInTheList = options.maximum_entries;
+	//set 10 if maxnumber is undefined, empty or negative value
+	maxNumberOfItemsInTheList = maxNumberOfItemsInTheList>0 ? maxNumberOfItemsInTheList : 10;
+	
+	var initRow = 0;
+	var lastRow = maxNumberOfItemsInTheList;
+	var currentPage = 0; //0 is the first page
+	
+	if (input) {
+		// update pagination
+		currentPage = input.pagination.currentPage;
+		initRow = (currentPage * maxNumberOfItemsInTheList);
+		lastRow = initRow + maxNumberOfItemsInTheList;
+	}
+	
+	
+	options.table = 'x_vocr_ce_compliance_and_ethics_request';
+	if (!options.table)
+		return;
+	options.id = 'vcc_compliance_and_ethics_requests';
+	//gs.info('url: '+gs.action.getGlideURI().get('sys_id'));
+	var appSysID = $sp.getRecord();
+	data.tableName = appSysID.getValue('source_table');
+	if(data.tableName == 'x_vocr_ce_compliance_and_ethics_request')
+	{
+		var ceRequestor = appSysID.sysapproval.u_requested_for_ssp.toString();
+		var ceType = appSysID.sysapproval.u_record_producer.toString();
+		if(gs.nil(options.hide_footer))
+			options.hide_footer = false;
+		options.hide_footer = (options.hide_footer == "true" || options.hide_footer == true);
+		
+		options.title = options.title || gr.getED().getPlural();
+		data.display_field = 'sys_created_on';
+		data.secondary_fields = ['u_requested_for_ssp','u_record_producer'];
+		data.filterMsg = gs.getMessage("Filter...");
+		data.list = [];
+		
+		if(appSysID.sysapproval.parent != "")
+			{
+			var gr1 = new GlideRecord('x_vocr_ce_compliance_and_ethics_request');
+			gr1.addQuery('sys_id',appSysID.sysapproval.parent);
+			gr1.query();
+			if(gr1.next())
+				{
+				var parentRecord = {};
+					parentRecord.sys_id = gr1.getValue('sys_id');
+					parentRecord.display_field = gr1.getDisplayValue() || gr1.getDisplayValue("short_description");
+					parentRecord.secondary_fields = [];
+					data.secondary_fields.forEach(function(f) {
+						parentRecord.secondary_fields.push(getField(gr1, f));
+					});
+					parentRecord.url = {id: 'ticket', table: 'x_vocr_ce_compliance_and_ethics_request', sys_id: parentRecord.sys_id};
+						data.list.push(parentRecord);
+					}
+					
+					
+				}
+				var gr = new GlideRecord('x_vocr_ce_compliance_and_ethics_request');
+				
+				gr.chooseWindow(initRow, lastRow);
+				gr.addQuery('u_requested_for_ssp',ceRequestor);
+				gr.addQuery('u_record_producer',ceType);
+				gr.addQuery('sys_id','!=',appSysID.sysapproval.sys_id.toString());
+				gr.addQuery('state','!=','4');
+				gr.addQuery('u_renewal_check','true');
+				gr.orderByDesc('sys_created_on');
+				gr.query();
+				var rowCount = gr.getRowCount();
+				
+				
+				var recordIdx = 0;
+				while (gr.next()) {
+					if (recordIdx == options.maximum_entries)
+						break;
+					
+					var record = {};
+						record.sys_id = gr.getValue('sys_id');
+						record.display_field = gr.getDisplayValue() || gr.getDisplayValue("short_description");
+						record.secondary_fields = [];
+						data.secondary_fields.forEach(function(f) {
+							record.secondary_fields.push(getField(gr, f));
+						});
+						record.url = {id: 'ticket', table: 'x_vocr_ce_compliance_and_ethics_request', sys_id: record.sys_id};
+							data.list.push(record);
+							recordIdx++;
+						}
+						// for pagination
+						data.pagination = {};
+							data.pagination.hasNext = (data.list.length == (parseInt(lastRow) - parseInt(initRow)) && lastRow < rowCount);
+							data.pagination.hasPrevious = parseInt(initRow) > 0;
+							data.pagination.from = parseInt(initRow + 1);
+							data.pagination.to = parseInt(lastRow) < parseInt(rowCount) ? parseInt(lastRow) : parseInt(rowCount);
+							data.pagination.of = parseInt(rowCount);
+							data.pagination.showPagination = data.pagination.hasPrevious || data.pagination.hasNext;
+							data.pagination.currentPage = data.pagination.from > data.pagination.to ? currentPage -1 : currentPage;
+							
+						}
+						function getField(gr, name) {
+							var f = {};
+								f.display_value = gr.getDisplayValue(name);
+								f.value = gr.getValue(name);
+								//var ge = gr.getElement(name);
+								//f.type = ge.getED().getInternalType()
+								//f.label = ge.getLabel();
+								return f;
+							}
+							
+							
+							
+						})()
+						
+						
+						]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-02-03 09:00:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>70ada70fdbd32f0060257abe3b9619f3</sys_id>
+        <sys_mod_count>88</sys_mod_count>
+        <sys_name>VCC Compliance and Ethics Requests</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sp_widget_70ada70fdbd32f0060257abe3b9619f3</sys_update_name>
+        <sys_updated_by>KRAFI</sys_updated_by>
+        <sys_updated_on>2019-04-01 13:02:47</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-{{c.options.color}} b" ng-if="c.data.tableName =='x_vocr_ce_compliance_and_ethics_request'">
+<div class="panel-heading">
+   <h2 uib-tooltip="Previous Compliance and Ethics Requests raised by the same Requested For" class="h2 panel-title"><fa ng-if="::options.glyph.length" name="{{::options.glyph}}" class="m-r-sm" /> {{c.options.title}}</h2><br>
+      <label ng-if="data.pagination.showPagination && (data.pagination.from <= data.pagination.to)">
+        <span ng-if="data.pagination.from != data.pagination.to">{{data.pagination.from}} ${to_lower}</span> 
+        {{data.pagination.to}} of {{data.pagination.of}}</label>
+ </div>
+
+ <div class="panel-body">
+     	<div ng-if="data.list.length == 0 && data.pagination.of == 0">
+      	${There are no open requests}
+    	</div>
+  	  <div ng-if="data.approvals.length == 0 && data.pagination.of != 0">
+      	${Loading Requests...}
+    	</div>
+  		<div class="list-group" style="max-height: none; overflow-y: auto;">
+    		<div class="list-group-item" ng-repeat="item in c.data.list | filter:c.filterText" >
+      		<a  ng-click="c.onClick($event, item, item.url, {})" href="?sys_id={{item.sys_id}}&id={{item.url.id}}&table={{item.url.table}}" target="_blank">
+        	<div ng-class="{'l-h-40': !item.secondary_fields.length}">{{item.display_field}}</div>
+        	<small class="text-muted" ng-repeat="f in item.secondary_fields">
+          <span ng-if="!$first"> • </span>
+          <span ng-switch="f.type" title="{{::f.label}}">
+            <span ng-switch-when="glide_date"><sn-time-ago timestamp="::f.value" /></span>
+            <span ng-switch-when="glide_date_time"><sn-time-ago timestamp="::f.value" /></span>
+            <span ng-switch-default="">{{f.display_value}}</span>
+          </span>
+        	</small>
+      		</a>
+    		</div>
+  	</div>
+ </div>
+   <div class="panel-footer clearfix" ng-if="data.pagination.showPagination && data.pagination.of != 0">
+  	<a id="previous-btn" href="javascript:void(0)" ng-click="previousPage()" ng-show="data.pagination.hasPrevious" class="pull-left btn btn-sm btn-default" aria-label="${Pagination button Previous}">
+      <i class="fa fa-arrow-left m-r-sm" aria-hidden="true"></i>${Previous}</a>
+    <a id="next_btn" href="javascript:void(0)" ng-click="nextPage()" ng-show="data.pagination.hasNext" class="pull-right btn btn-sm btn-default " aria-label="${Pagination button Next}">
+      ${Next}<i class="fa fa-arrow-right m-r-sm col-md-offset-3" aria-hidden="true"></i></a>
+    </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

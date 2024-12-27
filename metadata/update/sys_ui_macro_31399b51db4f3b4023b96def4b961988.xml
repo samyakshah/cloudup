@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name> Agreement with the Agent</name>
+        <scoped_name/>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>ASHARM18</sys_created_by>
+        <sys_created_on>2019-08-03 07:04:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>31399b51db4f3b4023b96def4b961988</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name> Agreement with the Agent</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_ui_macro_31399b51db4f3b4023b96def4b961988</sys_update_name>
+        <sys_updated_by>ASHARM18</sys_updated_by>
+        <sys_updated_on>2019-08-03 07:25:30</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<b>Use the paperclip</b>
+<a onclick="saveCatAttachment(gel('sysparm_item_guid').value, 'sc_cart_item')">
+<img title="Attachments..." height="16" src="images/icons/attachment.gifx" border="0" width="16"/></a>
+<b>to attach items to this request.</b>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

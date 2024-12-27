@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_vocr_ce_compliance_and_ethics_request" version="2" view="RPT040d0925db283f4058184342399619ba">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_requested_for_ssp.first_name</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>100d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_requested_for_ssp.last_name</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>900d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_approved_on</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>140d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>variables.22b77ec4db5363c060257abe3b96193a</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>940d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>variables.35e7fec4db5363c060257abe3b9619b2</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>180d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_requested_for_ssp.manager</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>980d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>variables.cba5d19cdb1f63c060257abe3b961987</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>1c0d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments_and_work_notes</element>
+            <list_id display_value="x_vocr_ce_compliance_and_ethics_request" element="NULL" name="x_vocr_ce_compliance_and_ethics_request" parent="NULL" relationship="NULL" sys_domain="global" view="5a540c17db313b8c476b5421ce96198c">580d0925db283f4058184342399619be</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_id>9c0d0925db283f4058184342399619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>KRAFI</sys_created_by>
+            <sys_created_on>2019-04-01 08:46:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>580d0925db283f4058184342399619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_vocr_ce_compliance_and_ethics_request</sys_name>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_ui_list_x_vocr_ce_compliance_and_ethics_request_RPT040d0925db283f4058184342399619ba</sys_update_name>
+            <sys_updated_by>KRAFI</sys_updated_by>
+            <sys_updated_on>2019-04-01 08:46:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt040d0925db283f4058184342399619ba" name="RPT040d0925db283f4058184342399619ba">5a540c17db313b8c476b5421ce96198c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

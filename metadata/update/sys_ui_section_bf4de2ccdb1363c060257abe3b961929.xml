@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="bf4de2ccdb1363c060257abe3b961929" sys_domain="global" table="x_vocr_ce_compliance_and_ethics_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>517ca8f7db807b0058184342399619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_for_ssp</element>
+            <position>1</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>197ca8f7db807b0058184342399619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_record_producer</element>
+            <position>2</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>997ca8f7db807b0058184342399619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_approved_on</element>
+            <position>3</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>1d7ca8f7db807b0058184342399619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_expiry_on</element>
+            <position>4</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>9d7ca8f7db807b0058184342399619da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_renewal_check</element>
+            <position>5</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>117ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent</element>
+            <position>6</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>917ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>157ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>8</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>957ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>9</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>197ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_compliance_ethics_stage</element>
+            <position>10</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>997ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>11</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>1d7ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>12</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>9d7ca8f7db807b0058184342399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>117ca8f7db807b0058184342399619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>14</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-03-14 09:38:45</sys_created_on>
+            <sys_id>917ca8f7db807b0058184342399619dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-03-14 09:38:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>unit_manager</element>
+            <position>15</position>
+            <sys_created_by>ASHARM28</sys_created_by>
+            <sys_created_on>2022-03-01 14:36:40</sys_created_on>
+            <sys_id>ec7247541bc605d0fa3c0e16604bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">bf4de2ccdb1363c060257abe3b961929</sys_ui_section>
+            <sys_updated_by>ASHARM28</sys_updated_by>
+            <sys_updated_on>2022-03-01 14:36:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-01-24 20:37:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>bf4de2ccdb1363c060257abe3b961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_vocr_ce_compliance_and_ethics_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_ui_section_bf4de2ccdb1363c060257abe3b961929</sys_update_name>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-01-24 20:37:25</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Form Details" section_id="a55eb688db67634060257abe3b9619f2" sys_domain="global" table="x_vocr_ce_compliance_and_ethics_request" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_svp</element>
+            <position>0</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-21 10:48:32</sys_created_on>
+            <sys_id>fa03b08ddbfb234058184342399619b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Details" display_value="Form Details" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">a55eb688db67634060257abe3b9619f2</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-21 10:48:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name_of_the_trade_association</element>
+            <position>1</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-21 10:48:32</sys_created_on>
+            <sys_id>b2037841db3f234058184342399619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Details" display_value="Form Details" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">a55eb688db67634060257abe3b9619f2</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-21 10:48:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-21 10:48:32</sys_created_on>
+            <sys_id>36037841db3f234058184342399619ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Form Details" display_value="Form Details" name="x_vocr_ce_compliance_and_ethics_request" sys_domain="global" view="Default view">a55eb688db67634060257abe3b9619f2</sys_ui_section>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-21 10:48:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Form Details</caption>
+            <header>false</header>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-06 08:07:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>a55eb688db67634060257abe3b9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_vocr_ce_compliance_and_ethics_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_ui_section_a55eb688db67634060257abe3b9619f2</sys_update_name>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-06 08:07:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

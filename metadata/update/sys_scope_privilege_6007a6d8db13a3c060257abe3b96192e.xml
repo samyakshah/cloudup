@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>HJOSHI</sys_created_by>
+        <sys_created_on>2019-01-25 14:48:21</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6007a6d8db13a3c060257abe3b96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ScopedXmlSerializer</sys_name>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_scope_privilege_6007a6d8db13a3c060257abe3b96192e</sys_update_name>
+        <sys_updated_by>HJOSHI</sys_updated_by>
+        <sys_updated_on>2019-01-25 14:48:21</sys_updated_on>
+        <target_name>ScopedXmlSerializer</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>

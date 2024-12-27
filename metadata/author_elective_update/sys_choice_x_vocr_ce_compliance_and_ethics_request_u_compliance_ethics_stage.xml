@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_compliance_ethics_stage" table="x_vocr_ce_compliance_and_ethics_request" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_compliance_ethics_stage</element>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 10:39:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>da538cdfdbfdf78c476b5421ce96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_compliance_ethics_stage</sys_name>
+            <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+            <sys_update_name>sys_choice_x_vocr_ce_compliance_and_ethics_request_u_compliance_ethics_stage</sys_update_name>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 10:39:13</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_compliance_ethics_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Line Manager Approval</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 10:39:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5bf0f12edbdf2fc060257abe3b96194c</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 12:14:49</sys_updated_on>
+            <value>Line Manager Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_compliance_ethics_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SVP Approval</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 10:39:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5b113deadbdf2fc060257abe3b96199f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 12:14:53</sys_updated_on>
+            <value>SVP Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_compliance_ethics_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Compliance and Ethics Verification</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 10:39:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8221f12edbdf2fc060257abe3b9619a5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 12:15:01</sys_updated_on>
+            <value>Compliance and Ethics Verification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_compliance_ethics_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verification Completed</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 10:39:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>9031b52edbdf2fc060257abe3b9619ab</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 12:15:04</sys_updated_on>
+            <value>Verification Completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_compliance_ethics_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>General Counsel Approval</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>500</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 12:10:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1f917d2edbdf2fc060257abe3b96198b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 12:15:06</sys_updated_on>
+            <value>General Counsel Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_compliance_ethics_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request Rejected</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 12:14:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>ab16ceeadb536fc060257abe3b9619f6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 12:15:09</sys_updated_on>
+            <value>Request Rejected</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_compliance_ethics_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request Approved</label>
+            <language>en</language>
+            <name>x_vocr_ce_compliance_and_ethics_request</name>
+            <sequence>2000</sequence>
+            <synonyms/>
+            <sys_created_by>HJOSHI</sys_created_by>
+            <sys_created_on>2019-02-01 12:16:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>00f6c26edb536fc060257abe3b96195f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>HJOSHI</sys_updated_by>
+            <sys_updated_on>2019-02-01 12:17:10</sys_updated_on>
+            <value>Request Approved</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

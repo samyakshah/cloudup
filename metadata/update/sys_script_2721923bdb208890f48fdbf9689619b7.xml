@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sysapproval_approver</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sysapproval_approver">stateCHANGESTOapproved^ORstateCHANGESTOrejected^source_table=x_vocr_ce_compliance_and_ethics_request^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="approved"/>
+            <item display_value="Rejected" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="rejected"/>
+            <item endquery="false" field="source_table" goto="false" newquery="false" operator="=" or="false" value="x_vocr_ce_compliance_and_ethics_request"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate Date for Compliance Approval</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var cae_approval=current.u_compliance.getRefRecord();
+	// Gift
+	if(current.sysapproval.u_record_producer=='a89ff8e8db877740f48fdbf96896192d'){
+		if(current.wf_activity.stage.name=='Line Manager Approval'){
+		
+			cae_approval.date_lm=new GlideDate().getDisplayValue();
+		}
+		
+			else if(current.wf_activity.stage.name=='Compliance and Ethics Verification'){
+		
+			cae_approval.date_ceo=new GlideDate().getDisplayValue();
+		}
+	}
+	// Conflict of Interest
+	else if(current.sysapproval.u_record_producer=='9d18d8b5db8fbb4023b96def4b9619bd'){
+		if(current.wf_activity.stage.name=='Line Manager Approval'){
+		
+			cae_approval.date=new GlideDate().getDisplayValue();
+		}
+		
+			else if(current.wf_activity.stage.name=='HR Representative'){
+		
+			cae_approval.date_hr=new GlideDate().getDisplayValue();
+		}
+		else if(current.wf_activity.stage.name=='General Counsel Approval'){
+		
+			cae_approval.date_svp=new GlideDate().getDisplayValue();
+		}
+		
+	}
+	cae_approval.update();
+
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>SS</sys_created_by>
+        <sys_created_on>2019-10-24 09:43:57</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>2721923bdb208890f48fdbf9689619b7</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Populate Date for Compliance Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Compliance and Ethics" source="x_vocr_ce">a84ca64cdb1363c060257abe3b961978</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Compliance and Ethics">a84ca64cdb1363c060257abe3b961978</sys_scope>
+        <sys_update_name>sys_script_2721923bdb208890f48fdbf9689619b7</sys_update_name>
+        <sys_updated_by>SS</sys_updated_by>
+        <sys_updated_on>2019-12-08 02:47:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>
